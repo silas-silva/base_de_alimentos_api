@@ -32,27 +32,28 @@ app.get('/', (request, response) => {
 app.get('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
     dados = {"status": false}
-
+    let alimentos
     fs.readFile('db.json', (err, data) => {
         if (err) {
           console.error(err);
           return;
         }
       
-        const alimentos = JSON.parse(data);
+        alimentos = JSON.parse(data);
       
         const alimentosFiltrados = Object.keys(alimentos)
           .filter(alimento => {
             const caloria = parseFloat(alimentos[alimento].Calorias);
             return caloria >= menor_caloria && caloria <= maior_caloria;
-          });
-        
-        console.log(alimentosFiltrados)
-        
-        response.status(200).send({alimentosFiltrados});
+        });
 
+        for (nome in alimentos) {
+            if(!(alimentosFiltrados.includes(nome))){
+                delete alimentos[nome]
+            }    
+        }
     });
-    response.status(200).send(dados);
+    response.status(200).send(JSON.parse(alimentos));
 });
 
 //Listar K alimentos menos carboidatros
