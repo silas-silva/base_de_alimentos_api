@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000
 
 const fs = require('fs');
-const alimentos = JSON.parse(fs.readFileSync('db.json'));
+
 
 app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
@@ -31,7 +31,7 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.get('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         const caloria = parseFloat(alimentos[alimento[0]].Calorias)
@@ -44,7 +44,7 @@ app.get('/calorias', (request, response) => {
 //Listar K alimentos menos carboidatros
 app.get('/menos_carbo', (request, response) => {
     const {carbo} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) <= carbo && alimento;
@@ -57,7 +57,7 @@ app.get('/menos_carbo', (request, response) => {
 //Listar K alimentos mais carboidatros
 app.get('/mais_carbo', (request, response) => {
     const {carbo} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) >= carbo && alimento;
@@ -69,7 +69,7 @@ app.get('/mais_carbo', (request, response) => {
 //Listar K alimentos menos Proteicos
 app.get('/menos_prot', (request, response) => {
     const {prot} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]].Proteinas) <= prot && alimento;
@@ -81,7 +81,7 @@ app.get('/menos_prot', (request, response) => {
 //Listar K alimentos mais Proteicos
 app.get('/mais_prot', (request, response) => {
     const {prot} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]].Proteinas) >= prot && alimento;
@@ -93,7 +93,7 @@ app.get('/mais_prot', (request, response) => {
 //Listar K alimentos menos Gordurosos
 app.get('/menos_gord', (request, response) => {
     const {gord} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) <= gord && alimento;
@@ -105,7 +105,7 @@ app.get('/menos_gord', (request, response) => {
 //Listar K alimentos mais Gordurosos
 app.get('/mais_gord', (request, response) => {
     const {gord} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) >= gord && alimento;
@@ -118,7 +118,7 @@ app.get('/mais_gord', (request, response) => {
 //Listar alimentos por nome
 app.get('/alimentos_nome', (request, response) => {
     const {nome} = request.body
-
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         return alimento[0].includes(nome) && alimento
