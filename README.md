@@ -49,3 +49,10 @@
 	"gord" : 2,
 }
 ```
+
+### Rota buscar por nome
+- http://basedealimentosapi-production.up.railway.app/alimentos_nome
+```{
+	"nome" : "arroz",
+}
+```
