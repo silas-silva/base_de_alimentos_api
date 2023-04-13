@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 const fs = require('fs');
 
 //const alimentos = JSON.parse(fs.readFileSync('db.json'));
-const alimentos = require('./db.js');
+const alimentos = require('./db');
 
 
 app.use(express.static("public"))
@@ -41,7 +41,7 @@ app.get('/calorias', (request, response) => {
         return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 }); 
 
 //Listar K alimentos menos carboidatros
@@ -53,7 +53,7 @@ app.get('/menos_carbo', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) <= carbo && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
     
 });
 
@@ -66,7 +66,7 @@ app.get('/mais_carbo', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) >= carbo && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 //Listar K alimentos menos Proteicos
@@ -78,7 +78,7 @@ app.get('/menos_prot', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Proteinas) <= prot && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 //Listar K alimentos mais Proteicos
@@ -90,7 +90,7 @@ app.get('/mais_prot', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Proteinas) >= prot && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 //Listar K alimentos menos Gordurosos
@@ -102,7 +102,7 @@ app.get('/menos_gord', (request, response) => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) <= gord && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 //Listar K alimentos mais Gordurosos
@@ -114,7 +114,7 @@ app.get('/mais_gord', (request, response) => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) >= gord && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 
@@ -127,7 +127,7 @@ app.get('/alimentos_nome', (request, response) => {
         return alimento[0].includes(nome) && alimento
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.status(200).send(alimentosFiltrados);
 });
 
 
