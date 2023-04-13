@@ -31,35 +31,29 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.get('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
+    const dados = {"status": true}
     
-    fs.readFile('db.json', (err, data) => {
-        if (err) {
-          console.error(err);
-          return;
-        }
-      
-        const alimentos = JSON.parse(data);
-      
-        const alimentosFiltrados = Object.keys(alimentos)
-          .filter(alimento => {
-            const caloria = parseFloat(alimentos[alimento].Calorias);
-            return caloria >= menor_caloria && caloria <= maior_caloria;
-        });
-
-        for (nome in alimentos) {
-            if(!(alimentosFiltrados.includes(nome))){
-                delete alimentos[nome]
-            }    
-        }
-        response.status(200).json(alimentos);
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
+    
+    const alimentosFiltrados = Object.keys(alimentos)
+    .filter(alimento => {
+        const caloria = parseFloat(alimentos[alimento].Calorias);
+        return caloria >= menor_caloria && caloria <= maior_caloria;
     });
+
+    for (nome in alimentos) {
+        if(!(alimentosFiltrados.includes(nome))){
+            delete alimentos[nome]
+        }
+    }
+    response.status(200).json(alimentos);
 });
 
 //Listar K alimentos menos carboidatros
 app.get('/menos_carbo', (request, response) => {
     const {num} = request.body
     dados = {"status": true}
-    response.status(200).send(dados);
+    
 });
 
 //Listar K alimentos mais carboidatros
