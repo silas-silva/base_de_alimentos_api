@@ -31,8 +31,7 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.get('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    const dados = {"status": true}
-    
+
     const alimentos = JSON.parse(fs.readFileSync('db.json'));
     
     const alimentosFiltrados = Object.keys(alimentos)
