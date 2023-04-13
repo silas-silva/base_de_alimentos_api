@@ -2,7 +2,7 @@
  Uma base de alimentos com valores nutricionais
 
 ### Rota Colarias
-- http://basedealimentosapi-production.up.railway.app/calorias
+- https://basedealimentosapi-production.up.railway.app/calorias
 ```
 {
 	"menor_caloria" : 50.6,
@@ -11,7 +11,7 @@
 ```
 
 ### Rota Mais Proteicos
-- http://basedealimentosapi-production.up.railway.app/mais_prot
+- https://basedealimentosapi-production.up.railway.app/mais_prot
 ```
 {
 	"prot" : 10,
@@ -19,14 +19,14 @@
 ```
 
 ### Rota Menos Proteicos
-- http://basedealimentosapi-production.up.railway.app/menos_prot
+- https://basedealimentosapi-production.up.railway.app/menos_prot
 ```
 {
 	"prot" : 100,
 }
 ```
 ### Rota mais Carboidratos
-- http://basedealimentosapi-production.up.railway.app/mais_carbo
+- https://basedealimentosapi-production.up.railway.app/mais_carbo
 ```
 {
 	"carbo" : 20,
@@ -34,7 +34,7 @@
 ```
 
 ### Rota Menos Carboidratos
-- http://basedealimentosapi-production.up.railway.app/menos_carbo
+- https://basedealimentosapi-production.up.railway.app/menos_carbo
 ```
 {
 	"carbo" : 100,
@@ -42,7 +42,7 @@
 ```
 
 ### Rota mais Gorduras
-- http://basedealimentosapi-production.up.railway.app/mais_gord
+- https://basedealimentosapi-production.up.railway.app/mais_gord
 ```
 {
 	"gord" : 20,
@@ -50,7 +50,7 @@
 ```
 
 ### Rota Menos Gorduras
-- http://basedealimentosapi-production.up.railway.app/menos_gord
+- https://basedealimentosapi-production.up.railway.app/menos_gord
 ```
 {
 	"gord" : 2,
@@ -58,7 +58,7 @@
 ```
 
 ### Rota buscar por nome
-- http://basedealimentosapi-production.up.railway.app/alimentos_nome
+- https://basedealimentosapi-production.up.railway.app/alimentos_nome
 ```
 {
 	"nome" : "arroz",
