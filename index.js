@@ -6,8 +6,8 @@ const port = process.env.PORT || 3000
 
 const fs = require('fs');
 
-//const alimentos = JSON.parse(fs.readFileSync('db.json'));
-const alimentos = require('./db');
+const alimentos = JSON.parse(fs.readFileSync('./public/db.json'));
+//const alimentos = require('./public/db');
 
 
 app.use(express.static("public"))
