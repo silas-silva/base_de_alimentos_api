@@ -25,7 +25,6 @@ app.use((request, response, next) => { //configure in cors what can access the b
 
 //rotas
 app.get('/', (request, response) => {
-    alert(alimentos)
     response.status(200).send("Página em desenvolvimento...");
 });
 
