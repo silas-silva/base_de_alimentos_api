@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 
 
-app.use((request, response, next) => { //configure in cors what can access the backend
+app.post((request, response, next) => { //configure in cors what can access the backend
     // * -> allow all URLs to access
     // 'url' -> permite 1 url acessar
     // ['url', 'url'] -> allow one or more URLs to access
@@ -25,12 +25,12 @@ app.use((request, response, next) => { //configure in cors what can access the b
 
 
 //rotas
-app.get('/', (request, response) => {
+app.post('/', (request, response) => {
     response.status(200).send("Página em desenvolvimento...");
 });
 
 //Listar alimentos entre M e N calorias
-app.get('/calorias', (request, response) => {
+app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
     
     const alimentosFiltrados = Object.entries(alimentos)
@@ -43,7 +43,7 @@ app.get('/calorias', (request, response) => {
 }); 
 
 //Listar K alimentos menos carboidatros
-app.get('/menos_carbo', (request, response) => {
+app.post('/menos_carbo', (request, response) => {
     const {carbo} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -56,7 +56,7 @@ app.get('/menos_carbo', (request, response) => {
 });
 
 //Listar K alimentos mais carboidatros
-app.get('/mais_carbo', (request, response) => {
+app.post('/mais_carbo', (request, response) => {
     const {carbo} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -68,7 +68,7 @@ app.get('/mais_carbo', (request, response) => {
 });
 
 //Listar K alimentos menos Proteicos
-app.get('/menos_prot', (request, response) => {
+app.post('/menos_prot', (request, response) => {
     const {prot} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -80,7 +80,7 @@ app.get('/menos_prot', (request, response) => {
 });
 
 //Listar K alimentos mais Proteicos
-app.get('/mais_prot', (request, response) => {
+app.post('/mais_prot', (request, response) => {
     const {prot} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -92,7 +92,7 @@ app.get('/mais_prot', (request, response) => {
 });
 
 //Listar K alimentos menos Gordurosos
-app.get('/menos_gord', (request, response) => {
+app.post('/menos_gord', (request, response) => {
     const {gord} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -104,7 +104,7 @@ app.get('/menos_gord', (request, response) => {
 });
 
 //Listar K alimentos mais Gordurosos
-app.get('/mais_gord', (request, response) => {
+app.post('/mais_gord', (request, response) => {
     const {gord} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
@@ -117,7 +117,7 @@ app.get('/mais_gord', (request, response) => {
 
 
 //Listar alimentos por nome
-app.get('/alimentos_nome', (request, response) => {
+app.post('/alimentos_nome', (request, response) => {
     const {nome} = request.body
 
     const alimentosFiltrados = Object.entries(alimentos)
