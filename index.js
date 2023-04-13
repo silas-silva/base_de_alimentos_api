@@ -41,7 +41,7 @@ app.get('/calorias', (request, response) => {
     }).map(alimento => alimentos[alimento]);;
 
     response.status(200).json(alimentosFiltrados);
-});
+}); 
 
 //Listar K alimentos menos carboidatros
 app.get('/menos_carbo', (request, response) => {
