@@ -4,6 +4,8 @@ const app = express();
 
 const port = process.env.PORT || 3000
 
+const fs = require('fs');
+
 
 app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
@@ -27,9 +29,29 @@ app.get('/', (request, response) => {
 });
 
 //Listar alimentos entre M e N calorias
-app.get('/menos_carbo', (request, response) => {
+app.get('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    dados = {"status": true}
+    dados = {"status": false}
+
+    fs.readFile('db.json', (err, data) => {
+        if (err) {
+          console.error(err);
+          return;
+        }
+      
+        const alimentos = JSON.parse(data);
+      
+        const alimentosFiltrados = Object.keys(alimentos)
+          .filter(alimento => {
+            const caloria = parseFloat(alimentos[alimento].Calorias);
+            return caloria >= menor_caloria && caloria <= maior_caloria;
+          });
+        
+        console.log(alimentosFiltrados)
+        
+        response.status(200).send({alimentosFiltrados});
+
+    });
     response.status(200).send(dados);
 });
 
