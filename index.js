@@ -31,30 +31,27 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    const alimentosFiltrados = {};
     
+    const resultados = [];
     for (let i = 0; i < alimentos.length; i++) {
         const alimento = alimentos[i];
         const caloria = parseFloat(alimento.Calorias);
-        
         if (caloria >= menor_caloria && caloria <= maior_caloria) {
-            alimentosFiltrados[i] = alimento;
+            resultados.push(alimento);
         }
     }
-    response.status(200).send(alimentosFiltrados);
+    console.log(alimentos)
+    response.status(200).send(resultados);
 }); 
 
 //Listar K alimentos menos carboidatros
 app.post('/menos_carbo', (request, response) => {
     const {carbo} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const carboidratos = parseFloat(value.Carboidratos);
-        if (carboidratos <= carbo) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]].Carboidratos) <= carbo && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
     
@@ -64,13 +61,10 @@ app.post('/menos_carbo', (request, response) => {
 app.post('/mais_carbo', (request, response) => {
     const {carbo} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const carboidratos = parseFloat(value.Carboidratos);
-        if (carboidratos >= carbo) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]].Carboidratos) >= carbo && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -79,13 +73,10 @@ app.post('/mais_carbo', (request, response) => {
 app.post('/menos_prot', (request, response) => {
     const {prot} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const proteina = parseFloat(value.Proteinas);
-        if (proteina <= prot) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]].Proteinas) <= prot && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -94,13 +85,10 @@ app.post('/menos_prot', (request, response) => {
 app.post('/mais_prot', (request, response) => {
     const {prot} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const proteina = parseFloat(value.Proteinas);
-        if (proteina >= prot) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]].Proteinas) >= prot && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -109,13 +97,10 @@ app.post('/mais_prot', (request, response) => {
 app.post('/menos_gord', (request, response) => {
     const {gord} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const gordura = parseFloat(value['Gorduras Totais']);
-        if (gordura <= gord) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) <= gord && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -124,13 +109,10 @@ app.post('/menos_gord', (request, response) => {
 app.post('/mais_gord', (request, response) => {
     const {gord} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        const gordura = parseFloat(value['Gorduras Totais']);
-        if (gordura >= gord) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) >= gord && alimento;
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -140,12 +122,10 @@ app.post('/mais_gord', (request, response) => {
 app.post('/alimentos_nome', (request, response) => {
     const {nome} = request.body
 
-    const alimentosFiltrados = {};
-    for (const [key, value] of Object.entries(alimentos)) {
-        if (key.includes(nome)) {
-            alimentosFiltrados[key] = value;
-        }
-    }
+    const alimentosFiltrados = Object.entries(alimentos)
+    .filter(alimento => {
+        return alimento[0].includes(nome) && alimento
+    });
 
     response.status(200).json(alimentosFiltrados);
 });
