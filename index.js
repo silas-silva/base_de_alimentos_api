@@ -32,10 +32,15 @@ app.get('/', (request, response) => {
 app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
     const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        const caloria = parseFloat(alimentos[alimento[0]].Calorias)
-        return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
-    });
+    const resultados = [];
+    
+    for (let i = 0; i < alimentos.length; i++) {
+        const alimento = alimentos[i];
+        const caloria = parseFloat(alimento.Calorias);
+        if (caloria >= menor_caloria && caloria <= maior_caloria) {
+            resultados.push(alimento);
+        }
+    }
     console.log(alimentos)
     response.status(200).send(alimentosFiltrados);
 }); 
