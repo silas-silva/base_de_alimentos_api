@@ -36,6 +36,7 @@ app.post('/calorias', (request, response) => {
     for (let i = 0; i < alimentos.length; i++) {
         const alimento = alimentos[i];
         const caloria = parseFloat(alimento.Calorias);
+        console.log(caloria);
         if (caloria >= menor_caloria && caloria <= maior_caloria) {
             resultados.push(alimento);
         }
