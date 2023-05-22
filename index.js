@@ -6,27 +6,24 @@ const port = process.env.PORT || 3000
 
 const fs = require('fs');
 const alimentos = JSON.parse(fs.readFileSync('db.json'));
-//const alimentos = require('db.js')
 
 app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 
+app.set('view engine', 'ejs')
 
-app.post((request, response, next) => { //configure in cors what can access the backend
-    // * -> allow all URLs to access
-    // 'url' -> permite 1 url acessar
-    // ['url', 'url'] -> allow one or more URLs to access
+app.post((request, response, next) => { 
     response.header("Access-Control-Allow-Origin", "*");
-    response.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE"); // Release which methods will be allowed access
+    response.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
     app.use(cors());
     next();
 })
 
 
 //rotas
-app.post('/', (request, response) => {
-    response.status(200).send("Página em desenvolvimento...");
+app.get('/', (request, response) => {
+    response.render('index', {alimentos: Object.entries(alimentos)})
 });
 
 //Listar alimentos entre M e N calorias
@@ -39,7 +36,7 @@ app.post('/calorias', (request, response) => {
         return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 }); 
 
 //Listar K alimentos menos carboidatros
@@ -51,8 +48,7 @@ app.post('/menos_carbo', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) <= carbo && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
-    
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 //Listar K alimentos mais carboidatros
@@ -64,7 +60,7 @@ app.post('/mais_carbo', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Carboidratos) >= carbo && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 //Listar K alimentos menos Proteicos
@@ -76,7 +72,7 @@ app.post('/menos_prot', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Proteinas) <= prot && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 //Listar K alimentos mais Proteicos
@@ -88,7 +84,7 @@ app.post('/mais_prot', (request, response) => {
         return parseFloat(alimentos[alimento[0]].Proteinas) >= prot && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 //Listar K alimentos menos Gordurosos
@@ -100,7 +96,7 @@ app.post('/menos_gord', (request, response) => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) <= gord && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 //Listar K alimentos mais Gordurosos
@@ -112,7 +108,7 @@ app.post('/mais_gord', (request, response) => {
         return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) >= gord && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 
@@ -125,7 +121,7 @@ app.post('/alimentos_nome', (request, response) => {
         return alimento[0].includes(nome) && alimento
     });
 
-    response.status(200).json(alimentosFiltrados);
+    response.render('tabela', {alimentos: alimentosFiltrados})
 });
 
 
@@ -134,6 +130,6 @@ app.listen(port, (err) => {
     if (err) {
         console.log("❌ Não foi possível iniciar o servidor ❌");
     }else{
-        console.log("Servidor iniciado")
+        console.log("ACESSE: http://localhost:3000/")
     }
 });

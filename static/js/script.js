@@ -1,20 +1,13 @@
-
-function generate(jsonArray){
-    var tBody = document.getElementById("table-body");      
-
-    var data = JSON.parse(jsonArray);
-
-    data.forEach(function(row){     
-        if (row) {        
-            var tRow = document.createElement("tr");        
-            for(var i=0; i<row.length; i++){      
-                var tCol = document.createElement("td");              
-                tCol.textContent = row[i];                       
-                tRow.appendChild(tCol);          
-            }            
-            tBody.appendChild(tRow);     
-        }
-    });
+function atualizaTabela(){
+    $.ajax({
+        url: 'http://localhost:3000/calorias',
+        method: 'POST', // ou 'POST', 'PUT', 'DELETE', etc.
+        data: {menor_caloria: '10', maior_caloria: '30'}, // se necessário
+        success: function(response) {
+            console.log(response)
+            $('#minha-tabela').html(response);
+        },
+      });
 }
   
   
