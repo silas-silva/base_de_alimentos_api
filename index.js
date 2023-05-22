@@ -25,7 +25,7 @@ app.post((request, response, next) => { //configure in cors what can access the 
 
 //rotas
 app.get('/', (request, response) => {
-    response.status(200).send("Página em desenvolvimento...");
+    response.status(200).json("Página em desenvolvimento...");
 });
 
 //Listar alimentos entre M e N calorias
