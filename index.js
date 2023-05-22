@@ -32,7 +32,7 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    
+    const alimentos = JSON.parse(fs.readFileSync('db.json'));
     const alimentosFiltrados = Object.entries(alimentos)
     .filter(alimento => {
         const caloria = parseFloat(alimentos[alimento[0]].Calorias)
