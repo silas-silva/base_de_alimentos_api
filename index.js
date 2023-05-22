@@ -25,7 +25,7 @@ app.post((request, response, next) => { //configure in cors what can access the 
 
 
 //rotas
-app.post('/', (request, response) => {
+app.get('/', (request, response) => {
     response.status(200).send("Página em desenvolvimento...");
 });
 
