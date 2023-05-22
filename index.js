@@ -39,7 +39,9 @@ app.post('/calorias', (request, response) => {
         return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
     });
 
-    response.status(200).json(alimentosFiltrados);
+    const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
+
+    response.status(200).json(alimentosFiltradosJSON);
 }); 
 
 //Listar K alimentos menos carboidatros
