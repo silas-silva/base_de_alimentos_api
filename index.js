@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000
 
 const fs = require('fs');
 const alimentos = JSON.parse(fs.readFileSync('db.json'));
-//const alimentos = require('db.js')
+console.log(alimentos)
 
 app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
@@ -39,11 +39,9 @@ app.post('/calorias', (request, response) => {
         return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
     });
 
-    const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
+    console.log(alimentosFiltrados)
 
-    console.log(alimentosFiltradosJSON)
-
-    response.status(200).json(alimentosFiltradosJSON);
+    response.status(200).json(alimentosFiltrados);
 }); 
 
 //Listar K alimentos menos carboidatros
