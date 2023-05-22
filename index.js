@@ -48,11 +48,15 @@ app.post('/calorias', (request, response) => {
 app.post('/menos_carbo', (request, response) => {
     const {carbo} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]].Carboidratos) <= carbo && alimento;
-    });
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const carboidratos = parseFloat(value.Carboidratos);
+        if (carboidratos <= carbo) {
+            alimentosFiltrados[key] = value;
+        }
+}
 
+const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
     response.status(200).json(alimentosFiltrados);
     
 });
