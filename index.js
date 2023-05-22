@@ -31,15 +31,14 @@ app.get('/', (request, response) => {
 //Listar alimentos entre M e N calorias
 app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
-    const alimentosFiltrados = Object.entries(alimentos)
-    const resultados = {};
+    const alimentosFiltrados = {};
     
     for (let i = 0; i < alimentos.length; i++) {
         const alimento = alimentos[i];
         const caloria = parseFloat(alimento.Calorias);
         
         if (caloria >= menor_caloria && caloria <= maior_caloria) {
-            resultados[i] = alimento;
+            alimentosFiltrados[i] = alimento;
         }
     }
     response.status(200).send(alimentosFiltrados);
