@@ -41,7 +41,7 @@ app.post('/calorias', (request, response) => {
         }
     }
 
-    response.status(200).send(alimentosFiltrados);
+    response.status(200).json(resultados);
 }); 
 
 //Listar K alimentos menos carboidatros
