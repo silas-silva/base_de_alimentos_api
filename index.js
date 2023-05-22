@@ -56,8 +56,7 @@ app.post('/menos_carbo', (request, response) => {
         }
     }
 
-    const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
-    response.status(200).json(alimentosFiltradosJSON);
+    response.status(200).json(alimentosFiltrados);
     
 });
 
