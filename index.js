@@ -41,6 +41,8 @@ app.post('/calorias', (request, response) => {
 
     const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
 
+    console.log(alimentosFiltradosJSON)
+
     response.status(200).json(alimentosFiltradosJSON);
 }); 
 
