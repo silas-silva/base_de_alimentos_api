@@ -54,10 +54,10 @@ app.post('/menos_carbo', (request, response) => {
         if (carboidratos <= carbo) {
             alimentosFiltrados[key] = value;
         }
-}
+    }
 
-const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
-    response.status(200).json(alimentosFiltrados);
+    const alimentosFiltradosJSON = JSON.stringify(alimentosFiltrados);
+    response.status(200).json(alimentosFiltradosJSON);
     
 });
 
