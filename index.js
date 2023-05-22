@@ -36,7 +36,7 @@ app.post('/calorias', (request, response) => {
         const caloria = parseFloat(alimentos[alimento[0]].Calorias)
         return caloria >= menor_caloria && caloria <= maior_caloria && alimento;
     });
-    console.log(alimentosFiltrados)
+    console.log(alimentos)
     response.status(200).send(alimentosFiltrados);
 }); 
 
