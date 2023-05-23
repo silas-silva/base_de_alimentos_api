@@ -23,7 +23,7 @@ app.post((request, response, next) => {
 
 //rotas
 app.get('/', (request, response) => {
-    response.render('index', {alimentos: Object.entries(alimentos)})
+    response.sendFile('./views/index.html', {root: __dirname})
 });
 
 //Listar alimentos entre M e N calorias
