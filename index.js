@@ -32,16 +32,16 @@ app.get('/', (request, response) => {
 app.post('/calorias', (request, response) => {
     const {menor_caloria, maior_caloria} = request.body
     
-    const resultados = [];
-    for (let i = 0; i < alimentos.length; i++) {
-        const alimento = alimentos[i];
-        const caloria = parseFloat(alimento.Calorias);
+
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const caloria = parseFloat(value.Calorias);
         if (caloria >= menor_caloria && caloria <= maior_caloria) {
-            resultados.push(alimento);
+            alimentosFiltrados[key] = value;
         }
     }
 
-    response.status(200).send(resultados);
+    response.status(200).send(alimentosFiltrados);
 }); 
 
 //Listar K alimentos menos carboidatros
@@ -64,10 +64,13 @@ app.post('/menos_carbo', (request, response) => {
 app.post('/mais_carbo', (request, response) => {
     const {carbo} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]].Carboidratos) >= carbo && alimento;
-    });
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const carboidratos = parseFloat(value.Carboidratos);
+        if (carboidratos >= carbo) {
+            alimentosFiltrados[key] = value;
+        }
+    }
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -76,10 +79,13 @@ app.post('/mais_carbo', (request, response) => {
 app.post('/menos_prot', (request, response) => {
     const {prot} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]].Proteinas) <= prot && alimento;
-    });
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const proteinas = parseFloat(value.Proteinas);
+        if (proteinas <= prot) {
+            alimentosFiltrados[key] = value;
+        }
+    }
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -88,22 +94,29 @@ app.post('/menos_prot', (request, response) => {
 app.post('/mais_prot', (request, response) => {
     const {prot} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]].Proteinas) >= prot && alimento;
-    });
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const proteinas = parseFloat(value.Proteinas);
+        if (proteinas >= prot) {
+            alimentosFiltrados[key] = value;
+        }
+    }
 
     response.status(200).json(alimentosFiltrados);
 });
+
 
 //Listar K alimentos menos Gordurosos
 app.post('/menos_gord', (request, response) => {
     const {gord} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) <= gord && alimento;
-    });
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const gorduras = parseFloat(value['Gorduras Totais']);
+        if (gorduras <= gord) {
+            alimentosFiltrados[key] = value;
+        }
+    }
 
     response.status(200).json(alimentosFiltrados);
 });
@@ -112,11 +125,14 @@ app.post('/menos_gord', (request, response) => {
 app.post('/mais_gord', (request, response) => {
     const {gord} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return parseFloat(alimentos[alimento[0]]['Gorduras Totais']) >= gord && alimento;
-    });
-
+    const alimentosFiltrados = {};
+    for (const [key, value] of Object.entries(alimentos)) {
+        const gorduras = parseFloat(value['Gorduras Totais']);
+        if (gorduras >= gord) {
+            alimentosFiltrados[key] = value;
+        }
+    }
+    
     response.status(200).json(alimentosFiltrados);
 });
 
@@ -125,10 +141,13 @@ app.post('/mais_gord', (request, response) => {
 app.post('/alimentos_nome', (request, response) => {
     const {nome} = request.body
 
-    const alimentosFiltrados = Object.entries(alimentos)
-    .filter(alimento => {
-        return alimento[0].includes(nome) && alimento
-    });
+    const alimentosFiltrados = [];
+    for (let i = 0; i < Object.entries(alimentos).length; i++) {
+        const alimento = Object.entries(alimentos)[i];
+        if (alimento[0].includes(nome) && alimento) {
+            alimentosFiltrados.push(alimento);
+        }
+    }
 
     response.status(200).json(alimentosFiltrados);
 });
