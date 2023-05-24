@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000
 
 const fs = require('fs');
-const alimentos = JSON.parse(fs.readFileSync('db.json'));
+const alimentos = JSON.parse(fs.readFileSync('static/database/db.json'));
 
 app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
