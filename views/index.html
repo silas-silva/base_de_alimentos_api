@@ -32,6 +32,17 @@
         width: 100px;
         height: auto;
       }
+
+      #tabela.dark-mode tr{
+        background-color: #333;
+        color: #f2f2f2;
+      }
+
+      #tabela tr{
+        background-color: #f2f2f2;
+        color: #333;
+      }
+
     </style>
 
     <script>
@@ -77,18 +88,18 @@
             data: dados,
             success: function(response) {
                 $('#minha-tabela').html(response);
-                if($('#minha-tabela').css('body') == '#333'){
-                  $('#minha-tabela').css({'color': '#333'})
-                }else{
-                  $('#minha-tabela').css({'color': '#f2f2f2'})
+                console.log($('body').css('color'))
+                if($('body').css('color') == ''){
+                  $('#minha-tabela').toggleClass('dark-mode');
                 }
+
             },
         });
       }
 
       function atualizaTema() {
-        const body = $("body");
-        body.toggleClass("dark-mode");
+        $("body").toggleClass("dark-mode");
+        $('#tabela').toggleClass('dark-mode');
       }
     </script>
 
