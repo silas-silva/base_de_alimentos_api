@@ -1,13 +1,14 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const path = require('path');
 
 const port = process.env.PORT || 3000
 
 const fs = require('fs');
 const alimentos = JSON.parse(fs.readFileSync('public/src/static/database/db.json'));
 
-app.use(express.static("public"))
+app.use(express.static(path.join(__dirname, "public/src")));
 app.use(express.urlencoded({extended:true}))
 app.use(express.json());
 
@@ -23,7 +24,8 @@ app.post((request, response, next) => {
 
 //rotas
 app.get('/', (request, response) => {
-    response.sendFile('./views/index.html', {root: __dirname})
+    response.render('index')
+    //response.sendFile('./views/index.html', {root: __dirname})
 });
 
 //Listar alimentos entre M e N calorias

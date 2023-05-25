@@ -10,156 +10,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     
-    <script type="text/javascript" src="../public/src/static/js/script.js"></script>
-    <link href="../public/src/static/css/style.css" rel="stylesheet" type="text/css">
-    
-    <style>
-      /* Estilos para o tema claro */
-      body {
-          background-color: #f2f2f2;
-          color: #333;
-      }
-
-      /* Estilos para o tema escuro */
-      body.dark-mode {
-          background-color: #333;
-          color: #f2f2f2;
-      }
-
-      header {
-        background-color: #198754;
-        padding: 5px;
-        text-align: center;
-      }
-  
-      img {
-        width: 100px;
-        height: auto;
-      }
-
-      #tabela.dark-mode tr{
-        background-color: #333;
-        color: #f2f2f2;
-      }
-
-      #tabela tr{
-        background-color: #f2f2f2;
-        color: #333;
-      }
-
-      .caixas {
-        background-color: silver;
-      }
-      
-      .infos{
-        width: 80%;
-        margin: 0px auto;
-      }
-
-    </style>
-
-    <script>
-      function atualizaOption(){
-        var option_select = $('#option_select').val()
-        if(option_select == 'calorias'){
-          $('#div-outros').hide()
-          $('#div-nome').hide()
-          $('#div-calorias').show()
-        }else if(option_select == 'nome') {
-          $('#div-outros').hide()
-          $('#div-nome').show()
-          $('#div-calorias').hide()
-        } else{
-          $('#div-outros').show()
-          $('#div-nome').hide()
-          $('#div-calorias').hide()
-        }
-      }
-
-      function atualizaTabela(){
-        var tipo_busca = document.getElementById('option_select').value
-        var rota = ''
-        var dados = {}
-
-        if(tipo_busca == 'nome'){
-          rota = 'alimentos_nome'
-          dados.nome = document.getElementById('nome').value
-        }else if(tipo_busca == 'calorias'){
-          rota = tipo_busca
-          var max = document.getElementById('valor-mais').value 
-          var min = document.getElementById('valor-menos').value
-          if (max > 900) {
-            alert('O valor máximo para o maior valor é 900')
-            document.getElementById('valor-mais').value = 900
-            max = 900
-          }else if (max < 0) {
-            alert('O valor mínimo para o maior valor é 900')
-            document.getElementById('valor-mais').value = 0
-            max = 0
-          }
-          if (min > 900) {
-            alert('O maior valor para o valor mínimo é 900')
-            document.getElementById('valor-menos').value = 900
-            min = 900
-          }else if (min < 0) {
-            alert('O menor valor para o valor mínimo é 900')
-            document.getElementById('valor-menos').value = 0
-            min = 0
-          }
-          dados.menor_caloria = max
-          dados.maior_caloria = min
-        }else{
-          rota = document.getElementById('menos-mais').value+'_'+tipo_busca
-          var valor = document.getElementById('valor').value
-          if (valor > 100) {
-            alert('O valor máximo é 100')
-            document.getElementById('valor').value = 100
-            valor = 100
-          }else if (valor < 0) {
-            alert('O valor mínimo é 0')
-            document.getElementById('valor').value = 0
-            valor = 0
-          }
-          dados[tipo_busca] = valor
-        }
-
-        var rota_completa = `https://basedealimentosapi-production-12a4.up.railway.app/${rota}`
-
-        $.ajax({
-            url: rota_completa,
-            method: 'POST', 
-            data: dados,
-            success: function(response) {
-                $('#minha-tabela').html(response);
-                if($('body').css('color') != $('#tabela').css('color')){
-                  $('#tabela').toggleClass('dark-mode');
-                }
-
-            },
-        });style="color: white"
-      }
-
-      function atualizaTema() {
-        $("body").toggleClass("dark-mode");
-        $('#tabela').toggleClass('dark-mode');
-      }
-    </script>
+    <script type="text/javascript" src="/static/js/script.js"></script>
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
   </head>
  
   <body> 
     <header>
       <h2 class="text-center" style="color: white">
+        <img src="/assets/alimentos.png" alt="Logo">
         <strong>Nutri - Info</strong>
+        <div class="d-flex justify-content-end">
+          <i id="icone_tema" onclick="atualizaTema()" class="bi bi-sun-fill fs-3" title="Clique para altera o tema"></i>
+        </div>
       </h2>
-      <!--img src="../public/src/assets/alimentos.png" alt="Logo"-->
     </header>
     
     <div style="margin-left: 5%; margin-right: 5%">
-      <div class="form-check form-switch">
-        <input type="checkbox" class="form-check-input" onchange="atualizaTema()" id="tema">
-        <label class="form-check-label" for="themeSwitch">Alternar Tema</label>
-      </div>
-  
       <div class="row d-flex justify-content-center">
         <div class="col-md-10" style="margin-top: 1%">
           <p >
