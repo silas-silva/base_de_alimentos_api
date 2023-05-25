@@ -1,0 +1,5940 @@
+{
+    "Arroz, integral, cozido": {
+        "Calorias": 123.53,
+
+        "Proteinas": 2.59,
+
+        "Carboidratos": 25.81,
+
+        "Gorduras Totais": 1.0
+    },
+
+    "Arroz, integral, cru": {
+        "Calorias": 359.68,
+
+        "Proteinas": 7.32,
+
+        "Carboidratos": 77.45,
+
+        "Gorduras Totais": 1.86
+    },
+
+    "Arroz, tipo 1, cozido": {
+        "Calorias": 128.26,
+
+        "Proteinas": 2.52,
+
+        "Carboidratos": 28.06,
+
+        "Gorduras Totais": 0.23
+    },
+
+    "Arroz, tipo 1, cru": {
+        "Calorias": 357.79,
+
+        "Proteinas": 7.16,
+
+        "Carboidratos": 78.76,
+
+        "Gorduras Totais": 0.34
+    },
+
+    "Arroz, tipo 2, cozido": {
+        "Calorias": 130.12,
+
+        "Proteinas": 2.57,
+
+        "Carboidratos": 28.19,
+
+        "Gorduras Totais": 0.36
+    },
+
+    "Arroz, tipo 2, cru": {
+        "Calorias": 358.12,
+
+        "Proteinas": 7.24,
+
+        "Carboidratos": 78.88,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Aveia, flocos, crua": {
+        "Calorias": 393.82,
+
+        "Proteinas": 13.92,
+
+        "Carboidratos": 66.64,
+
+        "Gorduras Totais": 8.5
+    },
+
+    "Biscoito, doce, maisena": {
+        "Calorias": 442.82,
+
+        "Proteinas": 8.07,
+
+        "Carboidratos": 75.23,
+
+        "Gorduras Totais": 11.97
+    },
+
+    "Biscoito, doce, recheado com chocolate": {
+        "Calorias": 471.82,
+
+        "Proteinas": 6.4,
+
+        "Carboidratos": 70.55,
+
+        "Gorduras Totais": 19.58
+    },
+
+    "Biscoito, doce, recheado com morango": {
+        "Calorias": 471.17,
+
+        "Proteinas": 5.72,
+
+        "Carboidratos": 71.01,
+
+        "Gorduras Totais": 19.57
+    },
+
+    "Biscoito, doce, wafer, recheado de chocolate": {
+        "Calorias": 502.46,
+
+        "Proteinas": 5.56,
+
+        "Carboidratos": 67.54,
+
+        "Gorduras Totais": 24.67
+    },
+
+    "Biscoito, doce, wafer, recheado de morango": {
+        "Calorias": 513.45,
+
+        "Proteinas": 4.52,
+
+        "Carboidratos": 67.35,
+
+        "Gorduras Totais": 26.4
+    },
+
+    "Biscoito, salgado, cream cracker": {
+        "Calorias": 431.73,
+
+        "Proteinas": 10.06,
+
+        "Carboidratos": 68.73,
+
+        "Gorduras Totais": 14.44
+    },
+
+    "Bolo, mistura para": {
+        "Calorias": 418.63,
+
+        "Proteinas": 6.16,
+
+        "Carboidratos": 84.71,
+
+        "Gorduras Totais": 6.13
+    },
+
+    "Bolo, pronto, aipim": {
+        "Calorias": 323.85,
+
+        "Proteinas": 4.42,
+
+        "Carboidratos": 47.86,
+
+        "Gorduras Totais": 12.75
+    },
+
+    "Bolo, pronto, chocolate": {
+        "Calorias": 410.01,
+
+        "Proteinas": 6.22,
+
+        "Carboidratos": 54.72,
+
+        "Gorduras Totais": 18.47
+    },
+
+    "Bolo, pronto, coco": {
+        "Calorias": 333.44,
+
+        "Proteinas": 5.67,
+
+        "Carboidratos": 52.28,
+
+        "Gorduras Totais": 11.3
+    },
+
+    "Bolo, pronto, milho": {
+        "Calorias": 311.39,
+
+        "Proteinas": 4.8,
+
+        "Carboidratos": 45.11,
+
+        "Gorduras Totais": 12.41
+    },
+
+    "Canjica, branca, crua": {
+        "Calorias": 357.6,
+
+        "Proteinas": 7.2,
+
+        "Carboidratos": 78.06,
+
+        "Gorduras Totais": 0.97
+    },
+
+    "Canjica, com leite integral": {
+        "Calorias": 112.46,
+
+        "Proteinas": 2.36,
+
+        "Carboidratos": 23.63,
+
+        "Gorduras Totais": 1.24
+    },
+
+    "Cereais, milho, flocos, com sal": {
+        "Calorias": 369.6,
+
+        "Proteinas": 7.29,
+
+        "Carboidratos": 80.83,
+
+        "Gorduras Totais": 1.6
+    },
+
+    "Cereais, milho, flocos, sem sal": {
+        "Calorias": 363.34,
+
+        "Proteinas": 6.88,
+
+        "Carboidratos": 80.45,
+
+        "Gorduras Totais": 1.18
+    },
+
+    "Cereais, mingau, milho, infantil": {
+        "Calorias": 394.43,
+
+        "Proteinas": 6.43,
+
+        "Carboidratos": 87.27,
+
+        "Gorduras Totais": 1.09
+    },
+
+    "Cereais, mistura para vitamina, trigo, cevada e aveia": {
+        "Calorias": 381.13,
+
+        "Proteinas": 8.9,
+
+        "Carboidratos": 81.62,
+
+        "Gorduras Totais": 2.12
+    },
+
+    "Cereal matinal, milho": {
+        "Calorias": 365.35,
+
+        "Proteinas": 7.16,
+
+        "Carboidratos": 83.82,
+
+        "Gorduras Totais": 0.96
+    },
+
+    "Cereal matinal, milho, a\u00e7\u00facar": {
+        "Calorias": 376.56,
+
+        "Proteinas": 4.74,
+
+        "Carboidratos": 88.84,
+
+        "Gorduras Totais": 0.67
+    },
+
+    "Creme de arroz, p\u00f3": {
+        "Calorias": 386.0,
+
+        "Proteinas": 7.03,
+
+        "Carboidratos": 83.87,
+
+        "Gorduras Totais": 1.23
+    },
+
+    "Creme de milho, p\u00f3": {
+        "Calorias": 333.03,
+
+        "Proteinas": 4.82,
+
+        "Carboidratos": 86.15,
+
+        "Gorduras Totais": 1.64
+    },
+
+    "Curau, milho verde": {
+        "Calorias": 78.43,
+
+        "Proteinas": 2.36,
+
+        "Carboidratos": 13.94,
+
+        "Gorduras Totais": 1.64
+    },
+
+    "Curau, milho verde, mistura para": {
+        "Calorias": 402.29,
+
+        "Proteinas": 2.22,
+
+        "Carboidratos": 79.82,
+
+        "Gorduras Totais": 13.37
+    },
+
+    "Farinha, de arroz, enriquecida": {
+        "Calorias": 363.06,
+
+        "Proteinas": 1.27,
+
+        "Carboidratos": 85.5,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Farinha, de centeio, integral": {
+        "Calorias": 335.78,
+
+        "Proteinas": 12.52,
+
+        "Carboidratos": 73.3,
+
+        "Gorduras Totais": 1.75
+    },
+
+    "Farinha, de milho, amarela": {
+        "Calorias": 350.59,
+
+        "Proteinas": 7.19,
+
+        "Carboidratos": 79.08,
+
+        "Gorduras Totais": 1.47
+    },
+
+    "Farinha, de rosca": {
+        "Calorias": 370.58,
+
+        "Proteinas": 11.38,
+
+        "Carboidratos": 75.79,
+
+        "Gorduras Totais": 1.46
+    },
+
+    "Farinha, de trigo": {
+        "Calorias": 360.47,
+
+        "Proteinas": 9.79,
+
+        "Carboidratos": 75.09,
+
+        "Gorduras Totais": 1.37
+    },
+
+    "Farinha, l\u00e1ctea, de cereais": {
+        "Calorias": 414.85,
+
+        "Proteinas": 11.88,
+
+        "Carboidratos": 77.77,
+
+        "Gorduras Totais": 5.79
+    },
+
+    "Lasanha, massa fresca, cozida": {
+        "Calorias": 163.76,
+
+        "Proteinas": 5.81,
+
+        "Carboidratos": 32.52,
+
+        "Gorduras Totais": 1.16
+    },
+
+    "Lasanha, massa fresca, crua": {
+        "Calorias": 220.31,
+
+        "Proteinas": 7.01,
+
+        "Carboidratos": 45.06,
+
+        "Gorduras Totais": 1.34
+    },
+
+    "Macarr\u00e3o, instant\u00e2neo": {
+        "Calorias": 435.86,
+
+        "Proteinas": 8.79,
+
+        "Carboidratos": 62.43,
+
+        "Gorduras Totais": 17.24
+    },
+
+    "Macarr\u00e3o, trigo, cru": {
+        "Calorias": 371.12,
+
+        "Proteinas": 10.0,
+
+        "Carboidratos": 77.94,
+
+        "Gorduras Totais": 1.3
+    },
+
+    "Macarr\u00e3o, trigo, cru, com ovos": {
+        "Calorias": 370.57,
+
+        "Proteinas": 10.32,
+
+        "Carboidratos": 76.62,
+
+        "Gorduras Totais": 1.97
+    },
+
+    "Milho, amido, cru": {
+        "Calorias": 361.37,
+
+        "Proteinas": 0.6,
+
+        "Carboidratos": 87.15,
+
+        "Gorduras Totais": 0
+    },
+
+    "Milho, fub\u00e1, cru": {
+        "Calorias": 353.48,
+
+        "Proteinas": 7.21,
+
+        "Carboidratos": 78.87,
+
+        "Gorduras Totais": 1.9
+    },
+
+    "Milho, verde, cru": {
+        "Calorias": 138.17,
+
+        "Proteinas": 6.59,
+
+        "Carboidratos": 28.56,
+
+        "Gorduras Totais": 0.61
+    },
+
+    "Milho, verde, enlatado, drenado": {
+        "Calorias": 97.56,
+
+        "Proteinas": 3.23,
+
+        "Carboidratos": 17.14,
+
+        "Gorduras Totais": 2.35
+    },
+
+    "Mingau tradicional, p\u00f3": {
+        "Calorias": 373.42,
+
+        "Proteinas": 0.58,
+
+        "Carboidratos": 89.34,
+
+        "Gorduras Totais": 0.37
+    },
+
+    "Pamonha, barra para cozimento, pr\u00e9-cozida": {
+        "Calorias": 171.22,
+
+        "Proteinas": 2.55,
+
+        "Carboidratos": 30.68,
+
+        "Gorduras Totais": 4.85
+    },
+
+    "P\u00e3o, aveia, forma": {
+        "Calorias": 343.09,
+
+        "Proteinas": 12.35,
+
+        "Carboidratos": 59.57,
+
+        "Gorduras Totais": 5.69
+    },
+
+    "P\u00e3o, de soja": {
+        "Calorias": 308.73,
+
+        "Proteinas": 11.34,
+
+        "Carboidratos": 56.51,
+
+        "Gorduras Totais": 3.58
+    },
+
+    "P\u00e3o, gl\u00faten, forma": {
+        "Calorias": 252.99,
+
+        "Proteinas": 11.95,
+
+        "Carboidratos": 44.12,
+
+        "Gorduras Totais": 2.73
+    },
+
+    "P\u00e3o, milho, forma": {
+        "Calorias": 292.01,
+
+        "Proteinas": 8.3,
+
+        "Carboidratos": 56.4,
+
+        "Gorduras Totais": 3.11
+    },
+
+    "P\u00e3o, trigo, forma, integral": {
+        "Calorias": 253.19,
+
+        "Proteinas": 9.43,
+
+        "Carboidratos": 49.94,
+
+        "Gorduras Totais": 3.65
+    },
+
+    "P\u00e3o, trigo, franc\u00eas": {
+        "Calorias": 299.81,
+
+        "Proteinas": 7.95,
+
+        "Carboidratos": 58.65,
+
+        "Gorduras Totais": 3.1
+    },
+
+    "P\u00e3o, trigo, sovado": {
+        "Calorias": 310.96,
+
+        "Proteinas": 8.4,
+
+        "Carboidratos": 61.45,
+
+        "Gorduras Totais": 2.84
+    },
+
+    "Pastel, de carne, cru": {
+        "Calorias": 288.7,
+
+        "Proteinas": 10.74,
+
+        "Carboidratos": 42.02,
+
+        "Gorduras Totais": 8.79
+    },
+
+    "Pastel, de carne, frito": {
+        "Calorias": 388.37,
+
+        "Proteinas": 10.1,
+
+        "Carboidratos": 43.77,
+
+        "Gorduras Totais": 20.14
+    },
+
+    "Pastel, de queijo, cru": {
+        "Calorias": 308.47,
+
+        "Proteinas": 9.85,
+
+        "Carboidratos": 45.95,
+
+        "Gorduras Totais": 9.63
+    },
+
+    "Pastel, de queijo, frito": {
+        "Calorias": 422.11,
+
+        "Proteinas": 8.71,
+
+        "Carboidratos": 48.13,
+
+        "Gorduras Totais": 22.67
+    },
+
+    "Pastel, massa, crua": {
+        "Calorias": 310.2,
+
+        "Proteinas": 6.9,
+
+        "Carboidratos": 57.38,
+
+        "Gorduras Totais": 5.48
+    },
+
+    "Pastel, massa, frita": {
+        "Calorias": 569.67,
+
+        "Proteinas": 6.02,
+
+        "Carboidratos": 49.34,
+
+        "Gorduras Totais": 40.86
+    },
+
+    "Pipoca, com \u00f3leo de soja, sem sal": {
+        "Calorias": 448.33,
+
+        "Proteinas": 9.93,
+
+        "Carboidratos": 70.31,
+
+        "Gorduras Totais": 15.94
+    },
+
+    "Polenta, pr\u00e9-cozida": {
+        "Calorias": 102.74,
+
+        "Proteinas": 2.29,
+
+        "Carboidratos": 23.31,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Torrada, p\u00e3o franc\u00eas": {
+        "Calorias": 377.42,
+
+        "Proteinas": 10.52,
+
+        "Carboidratos": 74.56,
+
+        "Gorduras Totais": 3.3
+    },
+
+    "Ab\u00f3bora, cabotian, cozida": {
+        "Calorias": 48.04,
+
+        "Proteinas": 1.44,
+
+        "Carboidratos": 10.76,
+
+        "Gorduras Totais": 0.73
+    },
+
+    "Ab\u00f3bora, cabotian, crua": {
+        "Calorias": 38.6,
+
+        "Proteinas": 1.75,
+
+        "Carboidratos": 8.36,
+
+        "Gorduras Totais": 0.54
+    },
+
+    "Ab\u00f3bora, menina brasileira, crua": {
+        "Calorias": 13.61,
+
+        "Proteinas": 0.61,
+
+        "Carboidratos": 3.3,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ab\u00f3bora, moranga, crua": {
+        "Calorias": 12.36,
+
+        "Proteinas": 0.96,
+
+        "Carboidratos": 2.67,
+
+        "Gorduras Totais": 0.06
+    },
+
+    "Ab\u00f3bora, moranga, refogada": {
+        "Calorias": 29.0,
+
+        "Proteinas": 0.39,
+
+        "Carboidratos": 5.98,
+
+        "Gorduras Totais": 0.8
+    },
+
+    "Ab\u00f3bora, pesco\u00e7o, crua": {
+        "Calorias": 24.47,
+
+        "Proteinas": 0.67,
+
+        "Carboidratos": 6.12,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Abobrinha, italiana, cozida": {
+        "Calorias": 15.04,
+
+        "Proteinas": 1.12,
+
+        "Carboidratos": 2.98,
+
+        "Gorduras Totais": 0.2
+    },
+
+    "Abobrinha, italiana, crua": {
+        "Calorias": 19.28,
+
+        "Proteinas": 1.14,
+
+        "Carboidratos": 4.29,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Abobrinha, italiana, refogada": {
+        "Calorias": 24.43,
+
+        "Proteinas": 1.07,
+
+        "Carboidratos": 4.19,
+
+        "Gorduras Totais": 0.82
+    },
+
+    "Abobrinha, paulista, crua": {
+        "Calorias": 30.81,
+
+        "Proteinas": 0.64,
+
+        "Carboidratos": 7.87,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Acelga, crua": {
+        "Calorias": 20.94,
+
+        "Proteinas": 1.44,
+
+        "Carboidratos": 4.63,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "Agri\u00e3o, cru": {
+        "Calorias": 16.58,
+
+        "Proteinas": 2.69,
+
+        "Carboidratos": 2.25,
+
+        "Gorduras Totais": 0.24
+    },
+
+    "Aipo, cru": {
+        "Calorias": 19.09,
+
+        "Proteinas": 0.76,
+
+        "Carboidratos": 4.27,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Alface, americana, crua": {
+        "Calorias": 8.79,
+
+        "Proteinas": 0.61,
+
+        "Carboidratos": 1.75,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Alface, crespa, crua": {
+        "Calorias": 10.68,
+
+        "Proteinas": 1.35,
+
+        "Carboidratos": 1.7,
+
+        "Gorduras Totais": 0.16
+    },
+
+    "Alface, lisa, crua": {
+        "Calorias": 13.82,
+
+        "Proteinas": 1.69,
+
+        "Carboidratos": 2.43,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Alface, roxa, crua": {
+        "Calorias": 12.72,
+
+        "Proteinas": 0.91,
+
+        "Carboidratos": 2.49,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Alfavaca, crua": {
+        "Calorias": 29.18,
+
+        "Proteinas": 2.66,
+
+        "Carboidratos": 5.24,
+
+        "Gorduras Totais": 0.48
+    },
+
+    "Alho, cru": {
+        "Calorias": 113.13,
+
+        "Proteinas": 7.01,
+
+        "Carboidratos": 23.91,
+
+        "Gorduras Totais": 0.22
+    },
+
+    "Alho-por\u00f3, cru": {
+        "Calorias": 31.51,
+
+        "Proteinas": 1.41,
+
+        "Carboidratos": 6.88,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Almeir\u00e3o, cru": {
+        "Calorias": 18.03,
+
+        "Proteinas": 1.77,
+
+        "Carboidratos": 3.34,
+
+        "Gorduras Totais": 0.22
+    },
+
+    "Almeir\u00e3o, refogado": {
+        "Calorias": 65.08,
+
+        "Proteinas": 1.7,
+
+        "Carboidratos": 5.7,
+
+        "Gorduras Totais": 4.85
+    },
+
+    "Batata, baroa, cozida": {
+        "Calorias": 80.12,
+
+        "Proteinas": 0.85,
+
+        "Carboidratos": 18.95,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Batata, baroa, crua": {
+        "Calorias": 100.98,
+
+        "Proteinas": 1.05,
+
+        "Carboidratos": 23.98,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Batata, doce, cozida": {
+        "Calorias": 76.76,
+
+        "Proteinas": 0.64,
+
+        "Carboidratos": 18.42,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "Batata, doce, crua": {
+        "Calorias": 118.24,
+
+        "Proteinas": 1.26,
+
+        "Carboidratos": 28.2,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Batata, frita, tipo chips, industrializada": {
+        "Calorias": 542.73,
+
+        "Proteinas": 5.58,
+
+        "Carboidratos": 51.22,
+
+        "Gorduras Totais": 36.62
+    },
+
+    "Batata, inglesa, cozida": {
+        "Calorias": 51.59,
+
+        "Proteinas": 1.16,
+
+        "Carboidratos": 11.94,
+
+        "Gorduras Totais": 0
+    },
+
+    "Batata, inglesa, crua": {
+        "Calorias": 64.37,
+
+        "Proteinas": 1.77,
+
+        "Carboidratos": 14.69,
+
+        "Gorduras Totais": 0
+    },
+
+    "Batata, inglesa, frita": {
+        "Calorias": 267.16,
+
+        "Proteinas": 4.97,
+
+        "Carboidratos": 35.64,
+
+        "Gorduras Totais": 13.11
+    },
+
+    "Batata, inglesa, saut\u00e9": {
+        "Calorias": 67.89,
+
+        "Proteinas": 1.29,
+
+        "Carboidratos": 14.09,
+
+        "Gorduras Totais": 0.9
+    },
+
+    "Berinjela, cozida": {
+        "Calorias": 18.85,
+
+        "Proteinas": 0.68,
+
+        "Carboidratos": 4.47,
+
+        "Gorduras Totais": 0.15
+    },
+
+    "Berinjela, crua": {
+        "Calorias": 19.63,
+
+        "Proteinas": 1.22,
+
+        "Carboidratos": 4.43,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Beterraba, cozida": {
+        "Calorias": 32.15,
+
+        "Proteinas": 1.29,
+
+        "Carboidratos": 7.23,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "Beterraba, crua": {
+        "Calorias": 48.83,
+
+        "Proteinas": 1.95,
+
+        "Carboidratos": 11.11,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "Biscoito, polvilho doce": {
+        "Calorias": 437.55,
+
+        "Proteinas": 1.29,
+
+        "Carboidratos": 80.54,
+
+        "Gorduras Totais": 12.25
+    },
+
+    "Br\u00f3colis, cozido": {
+        "Calorias": 24.64,
+
+        "Proteinas": 2.13,
+
+        "Carboidratos": 4.37,
+
+        "Gorduras Totais": 0.46
+    },
+
+    "Br\u00f3colis, cru": {
+        "Calorias": 25.5,
+
+        "Proteinas": 3.64,
+
+        "Carboidratos": 4.03,
+
+        "Gorduras Totais": 0.27
+    },
+
+    "Car\u00e1, cozido": {
+        "Calorias": 77.58,
+
+        "Proteinas": 1.53,
+
+        "Carboidratos": 18.85,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "Car\u00e1, cru": {
+        "Calorias": 95.63,
+
+        "Proteinas": 2.28,
+
+        "Carboidratos": 22.95,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Caruru, cru": {
+        "Calorias": 34.03,
+
+        "Proteinas": 3.2,
+
+        "Carboidratos": 5.97,
+
+        "Gorduras Totais": 0.58
+    },
+
+    "Catalonha, crua": {
+        "Calorias": 23.89,
+
+        "Proteinas": 1.87,
+
+        "Carboidratos": 4.75,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Catalonha, refogada": {
+        "Calorias": 63.45,
+
+        "Proteinas": 1.95,
+
+        "Carboidratos": 4.81,
+
+        "Gorduras Totais": 4.81
+    },
+
+    "Cebola, crua": {
+        "Calorias": 39.42,
+
+        "Proteinas": 1.71,
+
+        "Carboidratos": 8.85,
+
+        "Gorduras Totais": 0.08
+    },
+
+    "Cebolinha, crua": {
+        "Calorias": 19.52,
+
+        "Proteinas": 1.87,
+
+        "Carboidratos": 3.37,
+
+        "Gorduras Totais": 0.35
+    },
+
+    "Cenoura, cozida": {
+        "Calorias": 29.86,
+
+        "Proteinas": 0.85,
+
+        "Carboidratos": 6.69,
+
+        "Gorduras Totais": 0.22
+    },
+
+    "Cenoura, crua": {
+        "Calorias": 34.14,
+
+        "Proteinas": 1.32,
+
+        "Carboidratos": 7.66,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Chic\u00f3ria, crua": {
+        "Calorias": 13.84,
+
+        "Proteinas": 1.14,
+
+        "Carboidratos": 2.85,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Chuchu, cozido": {
+        "Calorias": 18.54,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 4.79,
+
+        "Gorduras Totais": 0
+    },
+
+    "Chuchu, cru": {
+        "Calorias": 16.98,
+
+        "Proteinas": 0.7,
+
+        "Carboidratos": 4.14,
+
+        "Gorduras Totais": 0.06
+    },
+
+    "Coentro, folhas desidratadas": {
+        "Calorias": 309.07,
+
+        "Proteinas": 20.88,
+
+        "Carboidratos": 47.95,
+
+        "Gorduras Totais": 10.39
+    },
+
+    "Couve, manteiga, crua": {
+        "Calorias": 27.06,
+
+        "Proteinas": 2.87,
+
+        "Carboidratos": 4.33,
+
+        "Gorduras Totais": 0.55
+    },
+
+    "Couve, manteiga, refogada ": {
+        "Calorias": 90.34,
+
+        "Proteinas": 1.67,
+
+        "Carboidratos": 8.71,
+
+        "Gorduras Totais": 6.59
+    },
+
+    "Couve-flor, crua": {
+        "Calorias": 22.56,
+
+        "Proteinas": 1.91,
+
+        "Carboidratos": 4.52,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Couve-flor, cozida": {
+        "Calorias": 19.11,
+
+        "Proteinas": 1.24,
+
+        "Carboidratos": 3.88,
+
+        "Gorduras Totais": 0.27
+    },
+
+    "Espinafre, Nova Zel\u00e2ndia, cru": {
+        "Calorias": 16.1,
+
+        "Proteinas": 2.0,
+
+        "Carboidratos": 2.57,
+
+        "Gorduras Totais": 0.24
+    },
+
+    "Espinafre, Nova Zel\u00e2ndia, refogado": {
+        "Calorias": 67.25,
+
+        "Proteinas": 2.72,
+
+        "Carboidratos": 4.24,
+
+        "Gorduras Totais": 5.43
+    },
+
+    "Farinha, de mandioca, crua": {
+        "Calorias": 360.87,
+
+        "Proteinas": 1.55,
+
+        "Carboidratos": 87.9,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Farinha, de mandioca, torrada": {
+        "Calorias": 365.27,
+
+        "Proteinas": 1.23,
+
+        "Carboidratos": 89.19,
+
+        "Gorduras Totais": 0.29
+    },
+
+    "Farinha, de puba": {
+        "Calorias": 360.18,
+
+        "Proteinas": 1.62,
+
+        "Carboidratos": 87.29,
+
+        "Gorduras Totais": 0.47
+    },
+
+    "F\u00e9cula, de mandioca": {
+        "Calorias": 330.85,
+
+        "Proteinas": 0.52,
+
+        "Carboidratos": 81.15,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Feij\u00e3o, broto, cru": {
+        "Calorias": 38.72,
+
+        "Proteinas": 4.17,
+
+        "Carboidratos": 7.76,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Inhame, cru": {
+        "Calorias": 96.7,
+
+        "Proteinas": 2.05,
+
+        "Carboidratos": 23.23,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Jil\u00f3, cru": {
+        "Calorias": 27.37,
+
+        "Proteinas": 1.4,
+
+        "Carboidratos": 6.19,
+
+        "Gorduras Totais": 0.22
+    },
+
+    "Jurubeba, crua": {
+        "Calorias": 125.81,
+
+        "Proteinas": 4.41,
+
+        "Carboidratos": 23.06,
+
+        "Gorduras Totais": 3.91
+    },
+
+    "Mandioca, cozida": {
+        "Calorias": 125.36,
+
+        "Proteinas": 0.57,
+
+        "Carboidratos": 30.09,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Mandioca, crua": {
+        "Calorias": 151.42,
+
+        "Proteinas": 1.13,
+
+        "Carboidratos": 36.17,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Mandioca, farofa, temperada": {
+        "Calorias": 405.69,
+
+        "Proteinas": 2.06,
+
+        "Carboidratos": 80.3,
+
+        "Gorduras Totais": 9.12
+    },
+
+    "Mandioca, frita": {
+        "Calorias": 300.06,
+
+        "Proteinas": 1.38,
+
+        "Carboidratos": 50.25,
+
+        "Gorduras Totais": 11.2
+    },
+
+    "Manjeric\u00e3o, cru": {
+        "Calorias": 21.15,
+
+        "Proteinas": 1.99,
+
+        "Carboidratos": 3.64,
+
+        "Gorduras Totais": 0.39
+    },
+
+    "Maxixe, cru": {
+        "Calorias": 13.75,
+
+        "Proteinas": 1.39,
+
+        "Carboidratos": 2.73,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Mostarda, folha, crua": {
+        "Calorias": 18.11,
+
+        "Proteinas": 2.11,
+
+        "Carboidratos": 3.24,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Nhoque, batata, cozido": {
+        "Calorias": 180.78,
+
+        "Proteinas": 5.86,
+
+        "Carboidratos": 36.78,
+
+        "Gorduras Totais": 1.94
+    },
+
+    "Nabo, cru": {
+        "Calorias": 18.19,
+
+        "Proteinas": 1.2,
+
+        "Carboidratos": 4.15,
+
+        "Gorduras Totais": 0.05
+    },
+
+    "Palmito, ju\u00e7ara, em conserva": {
+        "Calorias": 23.2,
+
+        "Proteinas": 1.79,
+
+        "Carboidratos": 4.33,
+
+        "Gorduras Totais": 0.4
+    },
+
+    "Palmito, pupunha, em conserva": {
+        "Calorias": 29.43,
+
+        "Proteinas": 2.46,
+
+        "Carboidratos": 5.51,
+
+        "Gorduras Totais": 0.45
+    },
+
+    "P\u00e3o, de queijo, assado": {
+        "Calorias": 363.08,
+
+        "Proteinas": 5.12,
+
+        "Carboidratos": 34.24,
+
+        "Gorduras Totais": 24.57
+    },
+
+    "P\u00e3o, de queijo, cru": {
+        "Calorias": 294.54,
+
+        "Proteinas": 3.65,
+
+        "Carboidratos": 38.51,
+
+        "Gorduras Totais": 13.99
+    },
+
+    "Pepino, cru": {
+        "Calorias": 9.53,
+
+        "Proteinas": 0.87,
+
+        "Carboidratos": 2.04,
+
+        "Gorduras Totais": 0
+    },
+
+    "Piment\u00e3o, amarelo, cru": {
+        "Calorias": 27.93,
+
+        "Proteinas": 1.22,
+
+        "Carboidratos": 5.96,
+
+        "Gorduras Totais": 0.44
+    },
+
+    "Piment\u00e3o, verde, cru": {
+        "Calorias": 21.29,
+
+        "Proteinas": 1.05,
+
+        "Carboidratos": 4.89,
+
+        "Gorduras Totais": 0.15
+    },
+
+    "Piment\u00e3o, vermelho, cru": {
+        "Calorias": 23.28,
+
+        "Proteinas": 1.04,
+
+        "Carboidratos": 5.47,
+
+        "Gorduras Totais": 0.15
+    },
+
+    "Polvilho, doce": {
+        "Calorias": 351.23,
+
+        "Proteinas": 0.43,
+
+        "Carboidratos": 86.77,
+
+        "Gorduras Totais": 0
+    },
+
+    "Quiabo, cru": {
+        "Calorias": 29.94,
+
+        "Proteinas": 1.92,
+
+        "Carboidratos": 6.37,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Rabanete, cru": {
+        "Calorias": 13.74,
+
+        "Proteinas": 1.39,
+
+        "Carboidratos": 2.73,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Repolho, branco, cru": {
+        "Calorias": 17.12,
+
+        "Proteinas": 0.88,
+
+        "Carboidratos": 3.86,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Repolho, roxo, cru": {
+        "Calorias": 30.91,
+
+        "Proteinas": 1.91,
+
+        "Carboidratos": 7.2,
+
+        "Gorduras Totais": 0.06
+    },
+
+    "Repolho, roxo, refogado": {
+        "Calorias": 41.77,
+
+        "Proteinas": 1.8,
+
+        "Carboidratos": 7.56,
+
+        "Gorduras Totais": 1.24
+    },
+
+    "R\u00facula, crua": {
+        "Calorias": 13.13,
+
+        "Proteinas": 1.77,
+
+        "Carboidratos": 2.22,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "Salsa, crua": {
+        "Calorias": 33.42,
+
+        "Proteinas": 3.26,
+
+        "Carboidratos": 5.71,
+
+        "Gorduras Totais": 0.61
+    },
+
+    "Seleta de legumes, enlatada": {
+        "Calorias": 56.53,
+
+        "Proteinas": 3.42,
+
+        "Carboidratos": 12.67,
+
+        "Gorduras Totais": 0.35
+    },
+
+    "Serralha, crua": {
+        "Calorias": 30.4,
+
+        "Proteinas": 2.67,
+
+        "Carboidratos": 4.95,
+
+        "Gorduras Totais": 0.74
+    },
+
+    "Taioba, crua": {
+        "Calorias": 34.21,
+
+        "Proteinas": 2.9,
+
+        "Carboidratos": 5.43,
+
+        "Gorduras Totais": 0.93
+    },
+
+    "Tomate, com semente, cru": {
+        "Calorias": 15.34,
+
+        "Proteinas": 1.1,
+
+        "Carboidratos": 3.14,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Tomate, extrato": {
+        "Calorias": 60.93,
+
+        "Proteinas": 2.43,
+
+        "Carboidratos": 14.96,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Tomate, molho industrializado": {
+        "Calorias": 38.45,
+
+        "Proteinas": 1.38,
+
+        "Carboidratos": 7.71,
+
+        "Gorduras Totais": 0.9
+    },
+
+    "Tomate, pur\u00ea": {
+        "Calorias": 27.94,
+
+        "Proteinas": 1.36,
+
+        "Carboidratos": 6.89,
+
+        "Gorduras Totais": 0
+    },
+
+    "Tomate, salada": {
+        "Calorias": 20.55,
+
+        "Proteinas": 0.81,
+
+        "Carboidratos": 5.12,
+
+        "Gorduras Totais": 0
+    },
+
+    "Vagem, crua": {
+        "Calorias": 24.9,
+
+        "Proteinas": 1.79,
+
+        "Carboidratos": 5.35,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Abacate, cru": {
+        "Calorias": 96.15,
+
+        "Proteinas": 1.24,
+
+        "Carboidratos": 6.03,
+
+        "Gorduras Totais": 8.4
+    },
+
+    "Abacaxi, cru": {
+        "Calorias": 48.32,
+
+        "Proteinas": 0.86,
+
+        "Carboidratos": 12.33,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Abacaxi, polpa, congelada": {
+        "Calorias": 30.59,
+
+        "Proteinas": 0.47,
+
+        "Carboidratos": 7.8,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "Abiu, cru": {
+        "Calorias": 62.42,
+
+        "Proteinas": 0.83,
+
+        "Carboidratos": 14.93,
+
+        "Gorduras Totais": 0.7
+    },
+
+    "A\u00e7a\u00ed, polpa, com xarope de guaran\u00e1 e glucose": {
+        "Calorias": 110.3,
+
+        "Proteinas": 0.72,
+
+        "Carboidratos": 21.46,
+
+        "Gorduras Totais": 3.66
+    },
+
+    "A\u00e7a\u00ed, polpa, congelada": {
+        "Calorias": 58.05,
+
+        "Proteinas": 0.8,
+
+        "Carboidratos": 6.21,
+
+        "Gorduras Totais": 3.94
+    },
+
+    "Acerola, crua": {
+        "Calorias": 33.46,
+
+        "Proteinas": 0.91,
+
+        "Carboidratos": 7.97,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Acerola, polpa, congelada": {
+        "Calorias": 21.94,
+
+        "Proteinas": 0.59,
+
+        "Carboidratos": 5.54,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ameixa, calda, enlatada ": {
+        "Calorias": 182.85,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 46.89,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ameixa, crua": {
+        "Calorias": 52.54,
+
+        "Proteinas": 0.77,
+
+        "Carboidratos": 13.85,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ameixa, em calda, enlatada, drenada ": {
+        "Calorias": 177.36,
+
+        "Proteinas": 1.02,
+
+        "Carboidratos": 47.66,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Atem\u00f3ia, crua": {
+        "Calorias": 96.97,
+
+        "Proteinas": 0.97,
+
+        "Carboidratos": 25.33,
+
+        "Gorduras Totais": 0.3
+    },
+
+    "Banana, da terra, crua": {
+        "Calorias": 128.02,
+
+        "Proteinas": 1.43,
+
+        "Carboidratos": 33.67,
+
+        "Gorduras Totais": 0.24
+    },
+
+    "Banana, doce em barra": {
+        "Calorias": 280.11,
+
+        "Proteinas": 2.17,
+
+        "Carboidratos": 75.67,
+
+        "Gorduras Totais": 0.05
+    },
+
+    "Banana, figo, crua": {
+        "Calorias": 105.08,
+
+        "Proteinas": 1.13,
+
+        "Carboidratos": 27.8,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Banana, ma\u00e7\u00e3, crua": {
+        "Calorias": 86.81,
+
+        "Proteinas": 1.75,
+
+        "Carboidratos": 22.34,
+
+        "Gorduras Totais": 0.06
+    },
+
+    "Banana, nanica, crua": {
+        "Calorias": 91.53,
+
+        "Proteinas": 1.4,
+
+        "Carboidratos": 23.85,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Banana, ouro, crua": {
+        "Calorias": 112.37,
+
+        "Proteinas": 1.48,
+
+        "Carboidratos": 29.34,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Banana, pacova, crua": {
+        "Calorias": 77.91,
+
+        "Proteinas": 1.23,
+
+        "Carboidratos": 20.31,
+
+        "Gorduras Totais": 0.08
+    },
+
+    "Banana, prata, crua": {
+        "Calorias": 98.25,
+
+        "Proteinas": 1.27,
+
+        "Carboidratos": 25.96,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Cacau, cru": {
+        "Calorias": 74.29,
+
+        "Proteinas": 0.95,
+
+        "Carboidratos": 19.41,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Caj\u00e1-Manga, cru": {
+        "Calorias": 45.58,
+
+        "Proteinas": 1.28,
+
+        "Carboidratos": 11.43,
+
+        "Gorduras Totais": 0
+    },
+
+    "Caj\u00e1, polpa, congelada": {
+        "Calorias": 26.33,
+
+        "Proteinas": 0.59,
+
+        "Carboidratos": 6.37,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Caju, cru": {
+        "Calorias": 43.07,
+
+        "Proteinas": 0.97,
+
+        "Carboidratos": 10.29,
+
+        "Gorduras Totais": 0.33
+    },
+
+    "Caju, polpa, congelada": {
+        "Calorias": 36.57,
+
+        "Proteinas": 0.48,
+
+        "Carboidratos": 9.35,
+
+        "Gorduras Totais": 0.15
+    },
+
+    "Caju, suco concentrado, envasado": {
+        "Calorias": 45.11,
+
+        "Proteinas": 0.4,
+
+        "Carboidratos": 10.73,
+
+        "Gorduras Totais": 0.2
+    },
+
+    "Caqui, chocolate, cru": {
+        "Calorias": 71.35,
+
+        "Proteinas": 0.36,
+
+        "Carboidratos": 19.33,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Carambola, crua": {
+        "Calorias": 45.74,
+
+        "Proteinas": 0.87,
+
+        "Carboidratos": 11.48,
+
+        "Gorduras Totais": 0.18
+    },
+
+    "Ciriguela, crua": {
+        "Calorias": 75.59,
+
+        "Proteinas": 1.4,
+
+        "Carboidratos": 18.86,
+
+        "Gorduras Totais": 0.36
+    },
+
+    "Cupua\u00e7u, cru": {
+        "Calorias": 49.42,
+
+        "Proteinas": 1.16,
+
+        "Carboidratos": 10.43,
+
+        "Gorduras Totais": 0.95
+    },
+
+    "Cupua\u00e7u, polpa, congelada": {
+        "Calorias": 48.8,
+
+        "Proteinas": 0.84,
+
+        "Carboidratos": 11.39,
+
+        "Gorduras Totais": 0.59
+    },
+
+    "Figo, cru": {
+        "Calorias": 41.45,
+
+        "Proteinas": 0.97,
+
+        "Carboidratos": 10.25,
+
+        "Gorduras Totais": 0.16
+    },
+
+    "Figo, enlatado, em calda": {
+        "Calorias": 184.36,
+
+        "Proteinas": 0.56,
+
+        "Carboidratos": 50.34,
+
+        "Gorduras Totais": 0.15
+    },
+
+    "Fruta-p\u00e3o, crua": {
+        "Calorias": 67.05,
+
+        "Proteinas": 1.08,
+
+        "Carboidratos": 17.17,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Goiaba, branca, com casca, crua": {
+        "Calorias": 51.74,
+
+        "Proteinas": 0.9,
+
+        "Carboidratos": 12.4,
+
+        "Gorduras Totais": 0.49
+    },
+
+    "Goiaba, doce em pasta": {
+        "Calorias": 268.96,
+
+        "Proteinas": 0.58,
+
+        "Carboidratos": 74.12,
+
+        "Gorduras Totais": 0
+    },
+
+    "Goiaba, doce, casc\u00e3o": {
+        "Calorias": 285.59,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 78.7,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Goiaba, vermelha, com casca, crua": {
+        "Calorias": 54.17,
+
+        "Proteinas": 1.09,
+
+        "Carboidratos": 13.01,
+
+        "Gorduras Totais": 0.44
+    },
+
+    "Graviola, crua": {
+        "Calorias": 61.62,
+
+        "Proteinas": 0.85,
+
+        "Carboidratos": 15.84,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Graviola, polpa, congelada": {
+        "Calorias": 38.27,
+
+        "Proteinas": 0.57,
+
+        "Carboidratos": 9.78,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Jabuticaba, crua": {
+        "Calorias": 58.05,
+
+        "Proteinas": 0.61,
+
+        "Carboidratos": 15.26,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Jaca, crua": {
+        "Calorias": 87.92,
+
+        "Proteinas": 1.4,
+
+        "Carboidratos": 22.5,
+
+        "Gorduras Totais": 0.27
+    },
+
+    "Jambo, cru": {
+        "Calorias": 26.91,
+
+        "Proteinas": 0.89,
+
+        "Carboidratos": 6.49,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Jamel\u00e3o, cru": {
+        "Calorias": 41.01,
+
+        "Proteinas": 0.55,
+
+        "Carboidratos": 10.63,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "Kiwi, cru": {
+        "Calorias": 51.14,
+
+        "Proteinas": 1.34,
+
+        "Carboidratos": 11.5,
+
+        "Gorduras Totais": 0.63
+    },
+
+    "Laranja, ba\u00eda, crua": {
+        "Calorias": 45.44,
+
+        "Proteinas": 0.98,
+
+        "Carboidratos": 11.47,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Laranja, ba\u00eda, suco": {
+        "Calorias": 36.65,
+
+        "Proteinas": 0.65,
+
+        "Carboidratos": 8.7,
+
+        "Gorduras Totais": 0
+    },
+
+    "Laranja, da terra, crua": {
+        "Calorias": 51.47,
+
+        "Proteinas": 1.08,
+
+        "Carboidratos": 12.86,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Laranja, da terra, suco": {
+        "Calorias": 40.96,
+
+        "Proteinas": 0.67,
+
+        "Carboidratos": 9.57,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Laranja, lima, crua": {
+        "Calorias": 45.7,
+
+        "Proteinas": 1.06,
+
+        "Carboidratos": 11.53,
+
+        "Gorduras Totais": 0.08
+    },
+
+    "Laranja, lima, suco": {
+        "Calorias": 39.34,
+
+        "Proteinas": 0.71,
+
+        "Carboidratos": 9.17,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Laranja, p\u00eara, crua": {
+        "Calorias": 36.77,
+
+        "Proteinas": 1.04,
+
+        "Carboidratos": 8.95,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Laranja, p\u00eara, suco": {
+        "Calorias": 32.71,
+
+        "Proteinas": 0.74,
+
+        "Carboidratos": 7.55,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Laranja, val\u00eancia, crua": {
+        "Calorias": 46.11,
+
+        "Proteinas": 0.77,
+
+        "Carboidratos": 11.72,
+
+        "Gorduras Totais": 0.16
+    },
+
+    "Laranja, val\u00eancia, suco": {
+        "Calorias": 36.2,
+
+        "Proteinas": 0.48,
+
+        "Carboidratos": 8.55,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Lim\u00e3o, cravo, suco": {
+        "Calorias": 14.1,
+
+        "Proteinas": 0.33,
+
+        "Carboidratos": 5.25,
+
+        "Gorduras Totais": 0
+    },
+
+    "Lim\u00e3o, galego, suco": {
+        "Calorias": 22.23,
+
+        "Proteinas": 0.57,
+
+        "Carboidratos": 7.32,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Lim\u00e3o, tahiti, cru": {
+        "Calorias": 31.82,
+
+        "Proteinas": 0.94,
+
+        "Carboidratos": 11.08,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Ma\u00e7\u00e3, Argentina, com casca, crua": {
+        "Calorias": 62.53,
+
+        "Proteinas": 0.23,
+
+        "Carboidratos": 16.59,
+
+        "Gorduras Totais": 0.25
+    },
+
+    "Ma\u00e7\u00e3, Fuji, com casca, crua": {
+        "Calorias": 55.52,
+
+        "Proteinas": 0.29,
+
+        "Carboidratos": 15.15,
+
+        "Gorduras Totais": 0
+    },
+
+    "Maca\u00faba, crua": {
+        "Calorias": 404.28,
+
+        "Proteinas": 2.08,
+
+        "Carboidratos": 13.95,
+
+        "Gorduras Totais": 40.66
+    },
+
+    " Mam\u00e3o, doce em calda, drenado": {
+        "Calorias": 195.63,
+
+        "Proteinas": 0.19,
+
+        "Carboidratos": 54.0,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Mam\u00e3o, Formosa, cru": {
+        "Calorias": 45.34,
+
+        "Proteinas": 0.82,
+
+        "Carboidratos": 11.55,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Mam\u00e3o, Papaia, cru": {
+        "Calorias": 40.16,
+
+        "Proteinas": 0.46,
+
+        "Carboidratos": 10.44,
+
+        "Gorduras Totais": 0.12
+    },
+
+    " Mam\u00e3o verde, doce em calda, drenado": {
+        "Calorias": 209.38,
+
+        "Proteinas": 0.32,
+
+        "Carboidratos": 57.64,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Manga, Haden, crua": {
+        "Calorias": 63.5,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 16.66,
+
+        "Gorduras Totais": 0.26
+    },
+
+    "Manga, Palmer, crua": {
+        "Calorias": 72.49,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 19.35,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Manga, polpa, congelada": {
+        "Calorias": 48.31,
+
+        "Proteinas": 0.38,
+
+        "Carboidratos": 12.52,
+
+        "Gorduras Totais": 0.23
+    },
+
+    "Manga, Tommy Atkins, crua": {
+        "Calorias": 50.69,
+
+        "Proteinas": 0.86,
+
+        "Carboidratos": 12.77,
+
+        "Gorduras Totais": 0.22
+    },
+
+    "Maracuj\u00e1, cru": {
+        "Calorias": 68.44,
+
+        "Proteinas": 1.99,
+
+        "Carboidratos": 12.26,
+
+        "Gorduras Totais": 2.1
+    },
+
+    "Maracuj\u00e1, polpa, congelada": {
+        "Calorias": 38.76,
+
+        "Proteinas": 0.81,
+
+        "Carboidratos": 9.6,
+
+        "Gorduras Totais": 0.18
+    },
+
+    "Maracuj\u00e1, suco concentrado, envasado": {
+        "Calorias": 41.97,
+
+        "Proteinas": 0.77,
+
+        "Carboidratos": 9.64,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Melancia, crua": {
+        "Calorias": 32.61,
+
+        "Proteinas": 0.88,
+
+        "Carboidratos": 8.14,
+
+        "Gorduras Totais": 0
+    },
+
+    "Mel\u00e3o, cru": {
+        "Calorias": 29.37,
+
+        "Proteinas": 0.68,
+
+        "Carboidratos": 7.53,
+
+        "Gorduras Totais": 0
+    },
+
+    "Mexerica, Murcote, crua": {
+        "Calorias": 57.59,
+
+        "Proteinas": 0.88,
+
+        "Carboidratos": 14.86,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Mexerica, Rio, crua": {
+        "Calorias": 36.87,
+
+        "Proteinas": 0.65,
+
+        "Carboidratos": 9.34,
+
+        "Gorduras Totais": 0.13
+    },
+
+    "Morango, cru": {
+        "Calorias": 30.15,
+
+        "Proteinas": 0.89,
+
+        "Carboidratos": 6.82,
+
+        "Gorduras Totais": 0.31
+    },
+
+    "N\u00easpera, crua": {
+        "Calorias": 42.54,
+
+        "Proteinas": 0.31,
+
+        "Carboidratos": 11.53,
+
+        "Gorduras Totais": 0
+    },
+
+    "Pequi, cru": {
+        "Calorias": 204.97,
+
+        "Proteinas": 2.34,
+
+        "Carboidratos": 12.97,
+
+        "Gorduras Totais": 17.97
+    },
+
+    "P\u00eara, Park, crua": {
+        "Calorias": 60.59,
+
+        "Proteinas": 0.24,
+
+        "Carboidratos": 16.07,
+
+        "Gorduras Totais": 0.23
+    },
+
+    "P\u00eara, Williams, crua": {
+        "Calorias": 53.31,
+
+        "Proteinas": 0.57,
+
+        "Carboidratos": 14.02,
+
+        "Gorduras Totais": 0.11
+    },
+
+    "P\u00eassego, Aurora, cru": {
+        "Calorias": 36.33,
+
+        "Proteinas": 0.82,
+
+        "Carboidratos": 9.32,
+
+        "Gorduras Totais": 0
+    },
+
+    "P\u00eassego, enlatado, em calda": {
+        "Calorias": 63.14,
+
+        "Proteinas": 0.71,
+
+        "Carboidratos": 16.88,
+
+        "Gorduras Totais": 0
+    },
+
+    "Pinha, crua": {
+        "Calorias": 88.47,
+
+        "Proteinas": 1.49,
+
+        "Carboidratos": 22.45,
+
+        "Gorduras Totais": 0.32
+    },
+
+    "Pitanga, crua": {
+        "Calorias": 41.42,
+
+        "Proteinas": 0.93,
+
+        "Carboidratos": 10.24,
+
+        "Gorduras Totais": 0.17
+    },
+
+    "Pitanga, polpa, congelada": {
+        "Calorias": 19.11,
+
+        "Proteinas": 0.29,
+
+        "Carboidratos": 4.76,
+
+        "Gorduras Totais": 0.12
+    },
+
+    "Rom\u00e3, crua": {
+        "Calorias": 55.74,
+
+        "Proteinas": 0.4,
+
+        "Carboidratos": 15.11,
+
+        "Gorduras Totais": 0
+    },
+
+    "Tamarindo, cru": {
+        "Calorias": 275.7,
+
+        "Proteinas": 3.21,
+
+        "Carboidratos": 72.53,
+
+        "Gorduras Totais": 0.46
+    },
+
+    "Tangerina, Ponc\u00e3, crua": {
+        "Calorias": 37.83,
+
+        "Proteinas": 0.85,
+
+        "Carboidratos": 9.61,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Tangerina, Ponc\u00e3, suco": {
+        "Calorias": 36.11,
+
+        "Proteinas": 0.52,
+
+        "Carboidratos": 8.8,
+
+        "Gorduras Totais": 0
+    },
+
+    "Tucum\u00e3, cru": {
+        "Calorias": 262.02,
+
+        "Proteinas": 2.09,
+
+        "Carboidratos": 26.47,
+
+        "Gorduras Totais": 19.08
+    },
+
+    "Umbu, cru": {
+        "Calorias": 37.02,
+
+        "Proteinas": 0.84,
+
+        "Carboidratos": 9.4,
+
+        "Gorduras Totais": 0
+    },
+
+    "Umbu, polpa, congelada": {
+        "Calorias": 33.94,
+
+        "Proteinas": 0.51,
+
+        "Carboidratos": 8.79,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Uva, It\u00e1lia, crua": {
+        "Calorias": 52.87,
+
+        "Proteinas": 0.75,
+
+        "Carboidratos": 13.57,
+
+        "Gorduras Totais": 0.2
+    },
+
+    "Uva, Rubi, crua": {
+        "Calorias": 49.06,
+
+        "Proteinas": 0.61,
+
+        "Carboidratos": 12.7,
+
+        "Gorduras Totais": 0.16
+    },
+
+    "Uva, suco concentrado, envasado": {
+        "Calorias": 57.66,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 14.71,
+
+        "Gorduras Totais": 0
+    },
+
+    "Azeite, de dend\u00ea": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "Azeite, de oliva, extra virgem": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "Manteiga, com sal": {
+        "Calorias": 725.97,
+
+        "Proteinas": 0.41,
+
+        "Carboidratos": 0.06,
+
+        "Gorduras Totais": 82.36
+    },
+
+    "Manteiga, sem sal": {
+        "Calorias": 757.54,
+
+        "Proteinas": 0.4,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 86.04
+    },
+
+    "Margarina, com \u00f3leo hidrogenado, com sal (65% de lip\u00eddeos)": {
+        "Calorias": 596.12,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 67.43
+    },
+
+    "Margarina, com \u00f3leo hidrogenado, sem sal (80% de lip\u00eddeos)": {
+        "Calorias": 722.53,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 81.73
+    },
+
+    "Margarina, com \u00f3leo interesterificado, com sal (65%de lip\u00eddeos)": {
+        "Calorias": 594.45,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 67.25
+    },
+
+    "Margarina, com \u00f3leo interesterificado, sem sal (65% de lip\u00eddeos)": {
+        "Calorias": 593.14,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 67.1
+    },
+
+    "\u00d3leo, de baba\u00e7u": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "\u00d3leo, de canola": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "\u00d3leo, de girassol": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "\u00d3leo, de milho": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "\u00d3leo, de pequi": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "\u00d3leo, de soja": {
+        "Calorias": 884,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 100
+    },
+
+    "Abadejo, fil\u00e9, congelado, assado": {
+        "Calorias": 111.62,
+
+        "Proteinas": 23.52,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.24
+    },
+
+    "Abadejo, fil\u00e9, congelado,cozido": {
+        "Calorias": 91.1,
+
+        "Proteinas": 19.35,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.94
+    },
+
+    "Abadejo, fil\u00e9, congelado, cru": {
+        "Calorias": 59.11,
+
+        "Proteinas": 13.08,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.36
+    },
+
+    "Abadejo, fil\u00e9, congelado, grelhado": {
+        "Calorias": 129.64,
+
+        "Proteinas": 27.61,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.3
+    },
+
+    "Atum, conserva em \u00f3leo": {
+        "Calorias": 165.91,
+
+        "Proteinas": 26.19,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.0
+    },
+
+    "Atum, fresco, cru": {
+        "Calorias": 117.5,
+
+        "Proteinas": 25.68,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.87
+    },
+
+    "Bacalhau, salgado, cru": {
+        "Calorias": 135.89,
+
+        "Proteinas": 29.04,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.32
+    },
+
+    "Bacalhau, salgado, refogado": {
+        "Calorias": 139.66,
+
+        "Proteinas": 23.98,
+
+        "Carboidratos": 1.22,
+
+        "Gorduras Totais": 3.61
+    },
+
+    "Ca\u00e7\u00e3o, posta, com farinha de trigo, frita": {
+        "Calorias": 208.33,
+
+        "Proteinas": 24.95,
+
+        "Carboidratos": 3.1,
+
+        "Gorduras Totais": 9.95
+    },
+
+    "Ca\u00e7\u00e3o, posta, cozida": {
+        "Calorias": 116.01,
+
+        "Proteinas": 25.59,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.75
+    },
+
+    "Ca\u00e7\u00e3o, posta, crua": {
+        "Calorias": 83.33,
+
+        "Proteinas": 17.85,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.79
+    },
+
+    "Camar\u00e3o, Rio Grande, grande, cozido": {
+        "Calorias": 90.01,
+
+        "Proteinas": 18.97,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.0
+    },
+
+    "Camar\u00e3o, Rio Grande, grande, cru": {
+        "Calorias": 47.18,
+
+        "Proteinas": 9.99,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.5
+    },
+
+    "Camar\u00e3o, Sete Barbas, sem cabe\u00e7a, com casca, frito": {
+        "Calorias": 231.25,
+
+        "Proteinas": 18.39,
+
+        "Carboidratos": 2.88,
+
+        "Gorduras Totais": 15.62
+    },
+
+    "Caranguejo, cozido": {
+        "Calorias": 82.72,
+
+        "Proteinas": 18.48,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.42
+    },
+
+    "Corimba, cru": {
+        "Calorias": 128.16,
+
+        "Proteinas": 17.37,
+
+        "Carboidratos": -0.03,
+
+        "Gorduras Totais": 5.99
+    },
+
+    "Corimbat\u00e1, assado": {
+        "Calorias": 261.45,
+
+        "Proteinas": 19.9,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 19.57
+    },
+
+    "Corimbat\u00e1, cozido": {
+        "Calorias": 238.7,
+
+        "Proteinas": 20.13,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 16.93
+    },
+
+    "Corvina de \u00e1gua doce, crua": {
+        "Calorias": 101.01,
+
+        "Proteinas": 18.92,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.24
+    },
+
+    "Corvina do mar, crua": {
+        "Calorias": 94,
+
+        "Proteinas": 18.57,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.58
+    },
+
+    "Corvina grande, assada": {
+        "Calorias": 146.53,
+
+        "Proteinas": 26.77,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 3.57
+    },
+
+    "Corvina grande, cozida": {
+        "Calorias": 100.08,
+
+        "Proteinas": 23.44,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.56
+    },
+
+    "Dourada de \u00e1gua doce, fresca": {
+        "Calorias": 131.21,
+
+        "Proteinas": 18.81,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.64
+    },
+
+    "Lambari, congelado, cru": {
+        "Calorias": 130.84,
+
+        "Proteinas": 16.81,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.55
+    },
+
+    "Lambari, congelado, frito": {
+        "Calorias": 326.87,
+
+        "Proteinas": 28.43,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 22.78
+    },
+
+    "Lambari, fresco, cru": {
+        "Calorias": 151.6,
+
+        "Proteinas": 15.65,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 9.4
+    },
+
+    "Manjuba, com farinha de trigo, frita": {
+        "Calorias": 343.55,
+
+        "Proteinas": 23.45,
+
+        "Carboidratos": 10.24,
+
+        "Gorduras Totais": 22.59
+    },
+
+    "Manjuba, frita": {
+        "Calorias": 349.33,
+
+        "Proteinas": 30.14,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 24.46
+    },
+
+    "Merluza, fil\u00e9, assado": {
+        "Calorias": 121.91,
+
+        "Proteinas": 26.6,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.92
+    },
+
+    "Merluza, fil\u00e9, cru": {
+        "Calorias": 89.13,
+
+        "Proteinas": 16.61,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.02
+    },
+
+    "Merluza, fil\u00e9, frito": {
+        "Calorias": 191.63,
+
+        "Proteinas": 26.93,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.5
+    },
+
+    "Pescada, branca, crua": {
+        "Calorias": 110.88,
+
+        "Proteinas": 16.26,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.59
+    },
+
+    "Pescada, branca, frita": {
+        "Calorias": 223.04,
+
+        "Proteinas": 27.36,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 11.78
+    },
+
+    "Pescada, fil\u00e9, com farinha de trigo, frito": {
+        "Calorias": 283.43,
+
+        "Proteinas": 21.44,
+
+        "Carboidratos": 5.03,
+
+        "Gorduras Totais": 19.11
+    },
+
+    "Pescada, fil\u00e9, cru": {
+        "Calorias": 107.21,
+
+        "Proteinas": 16.65,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.0
+    },
+
+    "Pescada, fil\u00e9, frito": {
+        "Calorias": 154.27,
+
+        "Proteinas": 28.59,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 3.57
+    },
+
+    "Pescada, fil\u00e9, molho escabeche": {
+        "Calorias": 141.96,
+
+        "Proteinas": 11.75,
+
+        "Carboidratos": 5.02,
+
+        "Gorduras Totais": 8.02
+    },
+
+    "Pescadinha, crua": {
+        "Calorias": 76.41,
+
+        "Proteinas": 15.48,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.14
+    },
+
+    "Pintado, assado": {
+        "Calorias": 191.56,
+
+        "Proteinas": 36.45,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 3.98
+    },
+
+    "Pintado, cru": {
+        "Calorias": 91.08,
+
+        "Proteinas": 18.56,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.31
+    },
+
+    "Pintado, grelhado": {
+        "Calorias": 152.19,
+
+        "Proteinas": 30.8,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.29
+    },
+
+    "Porquinho, cru": {
+        "Calorias": 93.02,
+
+        "Proteinas": 20.49,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.61
+    },
+
+    "Salm\u00e3o, fil\u00e9, com pele, fresco,  grelhado": {
+        "Calorias": 228.73,
+
+        "Proteinas": 23.92,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 14.04
+    },
+
+    "Salm\u00e3o, sem pele, fresco, cru": {
+        "Calorias": 169.78,
+
+        "Proteinas": 19.25,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 9.71
+    },
+
+    "Salm\u00e3o, sem pele, fresco, grelhado": {
+        "Calorias": 242.71,
+
+        "Proteinas": 26.14,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 14.53
+    },
+
+    "Sardinha, assada": {
+        "Calorias": 164.35,
+
+        "Proteinas": 32.18,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.99
+    },
+
+    "Sardinha, conserva em \u00f3leo": {
+        "Calorias": 284.98,
+
+        "Proteinas": 15.94,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 24.05
+    },
+
+    "Sardinha, frita": {
+        "Calorias": 257.04,
+
+        "Proteinas": 33.38,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 12.69
+    },
+
+    "Sardinha, inteira, crua": {
+        "Calorias": 113.9,
+
+        "Proteinas": 21.08,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.65
+    },
+
+    "Tucunar\u00e9, fil\u00e9, congelado, cru": {
+        "Calorias": 87.69,
+
+        "Proteinas": 17.96,
+
+        "Carboidratos": -0.05,
+
+        "Gorduras Totais": 1.22
+    },
+
+    "Apresuntado": {
+        "Calorias": 128.86,
+
+        "Proteinas": 13.45,
+
+        "Carboidratos": 2.86,
+
+        "Gorduras Totais": 6.69
+    },
+
+    "Caldo de carne, tablete": {
+        "Calorias": 240.62,
+
+        "Proteinas": 7.82,
+
+        "Carboidratos": 15.05,
+
+        "Gorduras Totais": 16.57
+    },
+
+    "Caldo de galinha, tablete": {
+        "Calorias": 251.45,
+
+        "Proteinas": 6.28,
+
+        "Carboidratos": 10.65,
+
+        "Gorduras Totais": 20.42
+    },
+
+    "Carne, bovina, ac\u00e9m, mo\u00eddo, cozido": {
+        "Calorias": 212.42,
+
+        "Proteinas": 26.69,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 10.92
+    },
+
+    "Carne, bovina, ac\u00e9m, mo\u00eddo, cru": {
+        "Calorias": 136.56,
+
+        "Proteinas": 19.42,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.95
+    },
+
+    "Carne, bovina, ac\u00e9m, sem gordura, cozido": {
+        "Calorias": 214.61,
+
+        "Proteinas": 27.27,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 10.88
+    },
+
+    "Carne, bovina, ac\u00e9m, sem gordura, cru": {
+        "Calorias": 144.03,
+
+        "Proteinas": 20.82,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.11
+    },
+
+    "Carne, bovina, alm\u00f4ndegas, cruas": {
+        "Calorias": 189.26,
+
+        "Proteinas": 12.31,
+
+        "Carboidratos": 9.79,
+
+        "Gorduras Totais": 11.2
+    },
+
+    "Carne, bovina, alm\u00f4ndegas, fritas": {
+        "Calorias": 271.81,
+
+        "Proteinas": 18.16,
+
+        "Carboidratos": 14.29,
+
+        "Gorduras Totais": 15.78
+    },
+
+    "Carne, bovina, bucho, cozido": {
+        "Calorias": 133.02,
+
+        "Proteinas": 21.64,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.5
+    },
+
+    "Carne, bovina, bucho, cru": {
+        "Calorias": 137.3,
+
+        "Proteinas": 20.53,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.5
+    },
+
+    "Carne, bovina, capa de contra-fil\u00e9, com gordura, crua": {
+        "Calorias": 216.91,
+
+        "Proteinas": 19.2,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 14.96
+    },
+
+    "Carne, bovina, capa de contra-fil\u00e9, com gordura, grelhada": {
+        "Calorias": 311.7,
+
+        "Proteinas": 30.69,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 20.03
+    },
+
+    "Carne, bovina, capa de contra-fil\u00e9, sem gordura, crua": {
+        "Calorias": 131.06,
+
+        "Proteinas": 21.54,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.33
+    },
+
+    "Carne, bovina, capa de contra-fil\u00e9, sem gordura, grelhada": {
+        "Calorias": 239.44,
+
+        "Proteinas": 35.06,
+
+        "Carboidratos": -0.01,
+
+        "Gorduras Totais": 9.95
+    },
+
+    "Carne, bovina, charque, cozido": {
+        "Calorias": 262.78,
+
+        "Proteinas": 36.36,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 11.92
+    },
+
+    "Carne, bovina, charque, cru": {
+        "Calorias": 248.86,
+
+        "Proteinas": 22.71,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 16.84
+    },
+
+    "Carne, bovina, contra-fil\u00e9, \u00e0 milanesa": {
+        "Calorias": 351.59,
+
+        "Proteinas": 20.61,
+
+        "Carboidratos": 12.17,
+
+        "Gorduras Totais": 24.0
+    },
+
+    "Carne, bovina, contra-fil\u00e9 de costela, cru": {
+        "Calorias": 202.44,
+
+        "Proteinas": 19.8,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 13.07
+    },
+
+    "Carne, bovina, contra-fil\u00e9 de costela, grelhado": {
+        "Calorias": 274.91,
+
+        "Proteinas": 29.88,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 16.33
+    },
+
+    "Carne, bovina, contra-fil\u00e9, com gordura, cru": {
+        "Calorias": 205.86,
+
+        "Proteinas": 21.15,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 12.81
+    },
+
+    "Carne, bovina, contra-fil\u00e9, com gordura, grelhado": {
+        "Calorias": 278.05,
+
+        "Proteinas": 32.4,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.49
+    },
+
+    "Carne, bovina, contra-fil\u00e9, sem gordura, cru": {
+        "Calorias": 156.62,
+
+        "Proteinas": 24.0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.0
+    },
+
+    "Carne, bovina, contra-fil\u00e9, sem gordura, grelhado": {
+        "Calorias": 193.69,
+
+        "Proteinas": 35.88,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.49
+    },
+
+    "Carne, bovina, costela, assada": {
+        "Calorias": 373.04,
+
+        "Proteinas": 28.81,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 27.72
+    },
+
+    "Carne, bovina, costela, crua": {
+        "Calorias": 357.72,
+
+        "Proteinas": 16.71,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 31.75
+    },
+
+    "Carne, bovina, cox\u00e3o duro, sem gordura, cozido": {
+        "Calorias": 216.62,
+
+        "Proteinas": 31.88,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.92
+    },
+
+    "Carne, bovina, cox\u00e3o duro, sem gordura, cru": {
+        "Calorias": 147.97,
+
+        "Proteinas": 21.51,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.22
+    },
+
+    "Carne, bovina, cox\u00e3o mole, sem gordura, cozido": {
+        "Calorias": 218.68,
+
+        "Proteinas": 32.38,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.91
+    },
+
+    "Carne, bovina, cox\u00e3o mole, sem gordura, cru": {
+        "Calorias": 169.07,
+
+        "Proteinas": 21.23,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.69
+    },
+
+    "Carne, bovina, cupim, assado": {
+        "Calorias": 330.1,
+
+        "Proteinas": 28.63,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 23.04
+    },
+
+    "Carne, bovina, cupim, cru": {
+        "Calorias": 221.4,
+
+        "Proteinas": 19.54,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.3
+    },
+
+    "Carne, bovina, f\u00edgado, cru": {
+        "Calorias": 141.05,
+
+        "Proteinas": 20.71,
+
+        "Carboidratos": 1.11,
+
+        "Gorduras Totais": 5.36
+    },
+
+    "Carne, bovina, f\u00edgado, grelhado": {
+        "Calorias": 225.03,
+
+        "Proteinas": 29.86,
+
+        "Carboidratos": 4.2,
+
+        "Gorduras Totais": 9.01
+    },
+
+    "Carne, bovina, fil\u00e9 mingnon, sem gordura, cru": {
+        "Calorias": 142.86,
+
+        "Proteinas": 21.6,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.61
+    },
+
+    "Carne, bovina, fil\u00e9 mingnon, sem gordura, grelhado": {
+        "Calorias": 219.7,
+
+        "Proteinas": 32.8,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.83
+    },
+
+    "Carne, bovina, flanco, sem gordura, cozido": {
+        "Calorias": 195.58,
+
+        "Proteinas": 29.38,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.77
+    },
+
+    "Carne, bovina, flanco, sem gordura, cru": {
+        "Calorias": 141.46,
+
+        "Proteinas": 20.0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.22
+    },
+
+    "Carne, bovina, fraldinha, com gordura, cozida": {
+        "Calorias": 338.45,
+
+        "Proteinas": 24.24,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 26.05
+    },
+
+    "Carne, bovina, fraldinha, com gordura, crua": {
+        "Calorias": 220.72,
+
+        "Proteinas": 17.58,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 16.15
+    },
+
+    "Carne, bovina, lagarto, cozido": {
+        "Calorias": 222.47,
+
+        "Proteinas": 32.86,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 9.11
+    },
+
+    "Carne, bovina, lagarto, cru": {
+        "Calorias": 134.86,
+
+        "Proteinas": 20.54,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.23
+    },
+
+    "Carne, bovina, l\u00edngua, cozida": {
+        "Calorias": 314.9,
+
+        "Proteinas": 21.37,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 24.8
+    },
+
+    "Carne, bovina, l\u00edngua, crua": {
+        "Calorias": 215.25,
+
+        "Proteinas": 17.09,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.77
+    },
+
+    "Carne, bovina, maminha, crua": {
+        "Calorias": 152.77,
+
+        "Proteinas": 20.93,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.03
+    },
+
+    "Carne, bovina, maminha, grelhada": {
+        "Calorias": 153.09,
+
+        "Proteinas": 30.74,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.42
+    },
+
+    "Carne, bovina, miolo de alcatra, sem gordura, cru": {
+        "Calorias": 162.87,
+
+        "Proteinas": 21.61,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.83
+    },
+
+    "Carne, bovina, miolo de alcatra, sem gordura, grelhado": {
+        "Calorias": 241.36,
+
+        "Proteinas": 31.93,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 11.64
+    },
+
+    "Carne, bovina, m\u00fasculo, sem gordura, cozido": {
+        "Calorias": 193.8,
+
+        "Proteinas": 31.23,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.7
+    },
+
+    "Carne, bovina, m\u00fasculo, sem gordura, cru": {
+        "Calorias": 141.58,
+
+        "Proteinas": 21.56,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.49
+    },
+
+    "Carne, bovina, paleta, com gordura, crua": {
+        "Calorias": 158.71,
+
+        "Proteinas": 21.41,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.46
+    },
+
+    "Carne, bovina, paleta, sem gordura, cozida": {
+        "Calorias": 193.65,
+
+        "Proteinas": 29.72,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.4
+    },
+
+    "Carne, bovina, paleta, sem gordura, crua": {
+        "Calorias": 140.94,
+
+        "Proteinas": 21.03,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.67
+    },
+
+    "Carne, bovina, patinho, sem gordura, cru": {
+        "Calorias": 133.47,
+
+        "Proteinas": 21.72,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.51
+    },
+
+    "Carne, bovina, patinho, sem gordura, grelhado": {
+        "Calorias": 219.26,
+
+        "Proteinas": 35.9,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.31
+    },
+
+    "Carne, bovina, peito, sem gordura, cozido": {
+        "Calorias": 338.47,
+
+        "Proteinas": 22.25,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 26.99
+    },
+
+    "Carne, bovina, peito, sem gordura, cru": {
+        "Calorias": 259.28,
+
+        "Proteinas": 17.56,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 20.43
+    },
+
+    "Carne, bovina, picanha, com gordura, crua": {
+        "Calorias": 212.88,
+
+        "Proteinas": 18.82,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 14.69
+    },
+
+    "Carne, bovina, picanha, com gordura, grelhada": {
+        "Calorias": 288.77,
+
+        "Proteinas": 26.42,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 19.51
+    },
+
+    "Carne, bovina, picanha, sem gordura, crua": {
+        "Calorias": 133.52,
+
+        "Proteinas": 21.25,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.74
+    },
+
+    "Carne, bovina, picanha, sem gordura, grelhada": {
+        "Calorias": 238.47,
+
+        "Proteinas": 31.91,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 11.33
+    },
+
+    "Carne, bovina, seca, cozida": {
+        "Calorias": 312.8,
+
+        "Proteinas": 26.93,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 21.93
+    },
+
+    "Carne, bovina, seca, crua": {
+        "Calorias": 312.75,
+
+        "Proteinas": 19.66,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 25.37
+    },
+
+    "Coxinha de frango, frita": {
+        "Calorias": 283.05,
+
+        "Proteinas": 9.61,
+
+        "Carboidratos": 34.52,
+
+        "Gorduras Totais": 11.84
+    },
+
+    "Croquete, de carne, cru": {
+        "Calorias": 245.77,
+
+        "Proteinas": 12.04,
+
+        "Carboidratos": 13.95,
+
+        "Gorduras Totais": 15.56
+    },
+
+    "Croquete, de carne, frito": {
+        "Calorias": 346.74,
+
+        "Proteinas": 16.86,
+
+        "Carboidratos": 18.15,
+
+        "Gorduras Totais": 22.67
+    },
+
+    "Empada de frango, pr\u00e9-cozida, assada": {
+        "Calorias": 358.19,
+
+        "Proteinas": 6.94,
+
+        "Carboidratos": 47.49,
+
+        "Gorduras Totais": 15.61
+    },
+
+    "Empada, de frango, pr\u00e9-cozida": {
+        "Calorias": 377.48,
+
+        "Proteinas": 7.34,
+
+        "Carboidratos": 35.53,
+
+        "Gorduras Totais": 22.89
+    },
+
+    "Frango, asa, com pele, crua": {
+        "Calorias": 213.19,
+
+        "Proteinas": 18.1,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.07
+    },
+
+    "Frango, caipira, inteiro, com pele, cozido": {
+        "Calorias": 242.89,
+
+        "Proteinas": 23.88,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.62
+    },
+
+    "Frango, caipira, inteiro, sem pele, cozido": {
+        "Calorias": 195.76,
+
+        "Proteinas": 29.57,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.7
+    },
+
+    "Frango, cora\u00e7\u00e3o, cru": {
+        "Calorias": 221.5,
+
+        "Proteinas": 12.58,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 18.6
+    },
+
+    "Frango, cora\u00e7\u00e3o, grelhado": {
+        "Calorias": 207.27,
+
+        "Proteinas": 22.44,
+
+        "Carboidratos": 0.61,
+
+        "Gorduras Totais": 12.1
+    },
+
+    "Frango, coxa, com pele, assada": {
+        "Calorias": 215.12,
+
+        "Proteinas": 28.49,
+
+        "Carboidratos": 0.06,
+
+        "Gorduras Totais": 10.36
+    },
+
+    "Frango, coxa, com pele, crua": {
+        "Calorias": 161.47,
+
+        "Proteinas": 17.09,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 9.81
+    },
+
+    "Frango, coxa, sem pele, cozida": {
+        "Calorias": 167.43,
+
+        "Proteinas": 26.86,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.85
+    },
+
+    "Frango, coxa, sem pele, crua": {
+        "Calorias": 119.95,
+
+        "Proteinas": 17.81,
+
+        "Carboidratos": 0.02,
+
+        "Gorduras Totais": 4.86
+    },
+
+    "Frango, f\u00edgado, cru": {
+        "Calorias": 106.48,
+
+        "Proteinas": 17.59,
+
+        "Carboidratos": -0.02,
+
+        "Gorduras Totais": 3.49
+    },
+
+    "Frango, fil\u00e9, \u00e0 milanesa": {
+        "Calorias": 220.87,
+
+        "Proteinas": 28.46,
+
+        "Carboidratos": 7.51,
+
+        "Gorduras Totais": 7.79
+    },
+
+    "Frango, inteiro, com pele, cru": {
+        "Calorias": 226.32,
+
+        "Proteinas": 16.44,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 17.31
+    },
+
+    "Frango, inteiro, sem pele, assado": {
+        "Calorias": 187.34,
+
+        "Proteinas": 28.02,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.5
+    },
+
+    "Frango, inteiro, sem pele, cozido": {
+        "Calorias": 170.39,
+
+        "Proteinas": 24.99,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.06
+    },
+
+    "Frango, inteiro, sem pele, cru": {
+        "Calorias": 129.1,
+
+        "Proteinas": 20.59,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.57
+    },
+
+    "Frango, peito, com pele, assado": {
+        "Calorias": 211.68,
+
+        "Proteinas": 33.42,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 7.65
+    },
+
+    "Frango, peito, com pele, cru": {
+        "Calorias": 149.47,
+
+        "Proteinas": 20.78,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.73
+    },
+
+    "Frango, peito, sem pele, cozido": {
+        "Calorias": 162.87,
+
+        "Proteinas": 31.47,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 3.16
+    },
+
+    "Frango, peito, sem pele, cru": {
+        "Calorias": 119.16,
+
+        "Proteinas": 21.53,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 3.02
+    },
+
+    "Frango, peito, sem pele, grelhado": {
+        "Calorias": 159.19,
+
+        "Proteinas": 32.03,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 2.48
+    },
+
+    "Frango, sobrecoxa, com pele, assada": {
+        "Calorias": 259.6,
+
+        "Proteinas": 28.7,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 15.19
+    },
+
+    "Frango, sobrecoxa, com pele, crua": {
+        "Calorias": 254.53,
+
+        "Proteinas": 15.46,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 20.9
+    },
+
+    "Frango, sobrecoxa, sem pele, assada": {
+        "Calorias": 232.88,
+
+        "Proteinas": 29.18,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 12.01
+    },
+
+    "Frango, sobrecoxa, sem pele, crua": {
+        "Calorias": 161.8,
+
+        "Proteinas": 17.57,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 9.62
+    },
+
+    "Hamb\u00farguer, bovino, cru": {
+        "Calorias": 214.84,
+
+        "Proteinas": 13.16,
+
+        "Carboidratos": 4.15,
+
+        "Gorduras Totais": 16.18
+    },
+
+    "Hamb\u00farguer, bovino, frito": {
+        "Calorias": 258.28,
+
+        "Proteinas": 19.97,
+
+        "Carboidratos": 6.32,
+
+        "Gorduras Totais": 17.01
+    },
+
+    "Hamb\u00farguer, bovino, grelhado": {
+        "Calorias": 209.83,
+
+        "Proteinas": 13.16,
+
+        "Carboidratos": 11.33,
+
+        "Gorduras Totais": 12.43
+    },
+
+    "Ling\u00fci\u00e7a, frango, crua": {
+        "Calorias": 218.11,
+
+        "Proteinas": 14.24,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 17.44
+    },
+
+    "Ling\u00fci\u00e7a, frango, frita": {
+        "Calorias": 245.46,
+
+        "Proteinas": 18.32,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 18.54
+    },
+
+    "Ling\u00fci\u00e7a, frango, grelhada": {
+        "Calorias": 243.66,
+
+        "Proteinas": 18.19,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 18.4
+    },
+
+    "Ling\u00fci\u00e7a, porco, crua": {
+        "Calorias": 227.2,
+
+        "Proteinas": 16.06,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 17.58
+    },
+
+    "Ling\u00fci\u00e7a, porco, frita": {
+        "Calorias": 279.54,
+
+        "Proteinas": 20.45,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 21.31
+    },
+
+    "Ling\u00fci\u00e7a, porco, grelhada": {
+        "Calorias": 296.49,
+
+        "Proteinas": 23.17,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 21.9
+    },
+
+    "Mortadela": {
+        "Calorias": 268.82,
+
+        "Proteinas": 11.95,
+
+        "Carboidratos": 5.82,
+
+        "Gorduras Totais": 21.65
+    },
+
+    "Peru, congelado, assado": {
+        "Calorias": 163.07,
+
+        "Proteinas": 26.2,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 5.67
+    },
+
+    "Peru, congelado, cru": {
+        "Calorias": 93.72,
+
+        "Proteinas": 18.08,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 1.83
+    },
+
+    "Porco, bisteca, crua": {
+        "Calorias": 164.12,
+
+        "Proteinas": 21.5,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.02
+    },
+
+    "Porco, bisteca, frita": {
+        "Calorias": 311.17,
+
+        "Proteinas": 33.75,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 18.52
+    },
+
+    "Porco, bisteca, grelhada": {
+        "Calorias": 280.08,
+
+        "Proteinas": 28.89,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 17.38
+    },
+
+    "Porco, costela, assada": {
+        "Calorias": 402.17,
+
+        "Proteinas": 30.22,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 30.28
+    },
+
+    "Porco, costela, crua": {
+        "Calorias": 255.61,
+
+        "Proteinas": 18,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 19.82
+    },
+
+    "Porco, lombo, assado": {
+        "Calorias": 210.23,
+
+        "Proteinas": 35.73,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 6.4
+    },
+
+    "Porco, lombo, cru": {
+        "Calorias": 175.63,
+
+        "Proteinas": 22.6,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 8.77
+    },
+
+    "Porco, orelha, salgada, crua": {
+        "Calorias": 258.49,
+
+        "Proteinas": 18.52,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 19.89
+    },
+
+    "Porco, pernil, assado": {
+        "Calorias": 262.26,
+
+        "Proteinas": 32.13,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 13.86
+    },
+
+    "Porco, pernil, cru": {
+        "Calorias": 186.06,
+
+        "Proteinas": 20.12,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 11.1
+    },
+
+    "Porco, rabo, salgado, cru": {
+        "Calorias": 377.42,
+
+        "Proteinas": 15.58,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 34.47
+    },
+
+    "Presunto, com capa de gordura": {
+        "Calorias": 127.85,
+
+        "Proteinas": 14.37,
+
+        "Carboidratos": 1.4,
+
+        "Gorduras Totais": 6.77
+    },
+
+    "Presunto, sem capa de gordura": {
+        "Calorias": 93.74,
+
+        "Proteinas": 14.29,
+
+        "Carboidratos": 2.15,
+
+        "Gorduras Totais": 2.71
+    },
+
+    "Quibe, assado": {
+        "Calorias": 136.23,
+
+        "Proteinas": 14.59,
+
+        "Carboidratos": 12.86,
+
+        "Gorduras Totais": 2.68
+    },
+
+    "Quibe, cru": {
+        "Calorias": 109.49,
+
+        "Proteinas": 12.35,
+
+        "Carboidratos": 10.77,
+
+        "Gorduras Totais": 1.67
+    },
+
+    "Quibe, frito": {
+        "Calorias": 253.83,
+
+        "Proteinas": 14.89,
+
+        "Carboidratos": 12.34,
+
+        "Gorduras Totais": 15.8
+    },
+
+    "Salame": {
+        "Calorias": 397.84,
+
+        "Proteinas": 25.81,
+
+        "Carboidratos": 2.91,
+
+        "Gorduras Totais": 30.64
+    },
+
+    "Toucinho, cru": {
+        "Calorias": 592.53,
+
+        "Proteinas": 11.48,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 60.26
+    },
+
+    "Toucinho, frito": {
+        "Calorias": 696.56,
+
+        "Proteinas": 27.28,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 64.31
+    },
+
+    "Bebida l\u00e1ctea, p\u00eassego": {
+        "Calorias": 55.16,
+
+        "Proteinas": 2.13,
+
+        "Carboidratos": 7.57,
+
+        "Gorduras Totais": 1.91
+    },
+
+    "Creme de Leite": {
+        "Calorias": 221.48,
+
+        "Proteinas": 1.51,
+
+        "Carboidratos": 4.51,
+
+        "Gorduras Totais": 22.48
+    },
+
+    "Iogurte, natural": {
+        "Calorias": 51.49,
+
+        "Proteinas": 4.06,
+
+        "Carboidratos": 1.92,
+
+        "Gorduras Totais": 3.04
+    },
+
+    "Iogurte, natural, desnatado": {
+        "Calorias": 41.49,
+
+        "Proteinas": 3.83,
+
+        "Carboidratos": 5.77,
+
+        "Gorduras Totais": 0.32
+    },
+
+    "Iogurte, sabor abacaxi": {
+        "Calorias": 0,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0
+    },
+
+    "Iogurte, sabor morango": {
+        "Calorias": 69.57,
+
+        "Proteinas": 2.71,
+
+        "Carboidratos": 9.69,
+
+        "Gorduras Totais": 2.33
+    },
+
+    "Iogurte, sabor p\u00eassego": {
+        "Calorias": 67.85,
+
+        "Proteinas": 2.53,
+
+        "Carboidratos": 9.43,
+
+        "Gorduras Totais": 2.34
+    },
+
+    "Leite, condensado": {
+        "Calorias": 312.57,
+
+        "Proteinas": 7.67,
+
+        "Carboidratos": 57.0,
+
+        "Gorduras Totais": 6.74
+    },
+
+    "Leite, de cabra": {
+        "Calorias": 66.42,
+
+        "Proteinas": 3.07,
+
+        "Carboidratos": 5.25,
+
+        "Gorduras Totais": 3.75
+    },
+
+    "Leite, de vaca, achocolatado": {
+        "Calorias": 82.82,
+
+        "Proteinas": 2.1,
+
+        "Carboidratos": 14.16,
+
+        "Gorduras Totais": 2.17
+    },
+
+    "Leite, de vaca, desnatado, p\u00f3": {
+        "Calorias": 361.61,
+
+        "Proteinas": 34.69,
+
+        "Carboidratos": 53.04,
+
+        "Gorduras Totais": 0.93
+    },
+    "Leite, fermentado": {
+        "Calorias": 69.62,
+
+        "Proteinas": 1.89,
+
+        "Carboidratos": 15.67,
+
+        "Gorduras Totais": 0.1
+    },
+
+    "Queijo, minas, frescal": {
+        "Calorias": 264.27,
+
+        "Proteinas": 17.41,
+
+        "Carboidratos": 3.24,
+
+        "Gorduras Totais": 20.18
+    },
+
+    "Queijo, minas, meia cura": {
+        "Calorias": 320.72,
+
+        "Proteinas": 21.21,
+
+        "Carboidratos": 3.57,
+
+        "Gorduras Totais": 24.61
+    },
+
+    "Queijo, mozarela": {
+        "Calorias": 329.87,
+
+        "Proteinas": 22.65,
+
+        "Carboidratos": 3.05,
+
+        "Gorduras Totais": 25.18
+    },
+
+    "Queijo, parmes\u00e3o": {
+        "Calorias": 452.96,
+
+        "Proteinas": 35.55,
+
+        "Carboidratos": 1.66,
+
+        "Gorduras Totais": 33.53
+    },
+
+    "Queijo, pasteurizado": {
+        "Calorias": 303.08,
+
+        "Proteinas": 9.36,
+
+        "Carboidratos": 5.68,
+
+        "Gorduras Totais": 27.44
+    },
+
+    "Queijo, petit suisse, morango": {
+        "Calorias": 121.11,
+
+        "Proteinas": 5.79,
+
+        "Carboidratos": 18.46,
+
+        "Gorduras Totais": 2.84
+    },
+
+    "Queijo, prato": {
+        "Calorias": 359.88,
+
+        "Proteinas": 22.66,
+
+        "Carboidratos": 1.88,
+
+        "Gorduras Totais": 29.11
+    },
+
+    "Queijo, requeij\u00e3o, cremoso": {
+        "Calorias": 256.58,
+
+        "Proteinas": 9.63,
+
+        "Carboidratos": 2.43,
+
+        "Gorduras Totais": 23.44
+    },
+
+    "Queijo, ricota": {
+        "Calorias": 139.73,
+
+        "Proteinas": 12.6,
+
+        "Carboidratos": 3.79,
+
+        "Gorduras Totais": 8.11
+    },
+
+    "Bebida isot\u00f4nica, sabores variados": {
+        "Calorias": 25.61,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 6.4,
+
+        "Gorduras Totais": 0
+    },
+
+    "Caf\u00e9, infus\u00e3o 10%": {
+        "Calorias": 9.07,
+
+        "Proteinas": 0.71,
+
+        "Carboidratos": 1.48,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Cana, aguardente 1": {
+        "Calorias": 215.66,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0
+    },
+
+    "Cana, caldo de": {
+        "Calorias": 65.34,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 18.15,
+
+        "Gorduras Totais": 0
+    },
+
+    "Cerveja, pilsen 2": {
+        "Calorias": 40.72,
+
+        "Proteinas": 0.56,
+
+        "Carboidratos": 3.32,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ch\u00e1, erva-doce, infus\u00e3o 5%": {
+        "Calorias": 1.4,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0.39,
+
+        "Gorduras Totais": 0
+    },
+
+    "Ch\u00e1, mate, infus\u00e3o 5%": {
+        "Calorias": 2.73,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0.64,
+
+        "Gorduras Totais": 0.05
+    },
+
+    "Ch\u00e1, preto, infus\u00e3o 5%": {
+        "Calorias": 2.25,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0.63,
+
+        "Gorduras Totais": 0
+    },
+
+    "Coco, \u00e1gua de": {
+        "Calorias": 21.51,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 5.28,
+
+        "Gorduras Totais": 0
+    },
+
+    "Refrigerante, tipo \u00e1gua t\u00f4nica": {
+        "Calorias": 30.78,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 7.95,
+
+        "Gorduras Totais": 0
+    },
+
+    "Refrigerante, tipo cola": {
+        "Calorias": 33.51,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 8.66,
+
+        "Gorduras Totais": 0
+    },
+
+    "Refrigerante, tipo guaran\u00e1": {
+        "Calorias": 38.7,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 10,
+
+        "Gorduras Totais": 0
+    },
+
+    "Refrigerante, tipo laranja": {
+        "Calorias": 45.63,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 11.79,
+
+        "Gorduras Totais": 0
+    },
+
+    "Refrigerante, tipo lim\u00e3o": {
+        "Calorias": 39.72,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 10.26,
+
+        "Gorduras Totais": 0
+    },
+
+    "Omelete, de queijo": {
+        "Calorias": 268.01,
+
+        "Proteinas": 15.57,
+
+        "Carboidratos": 0.44,
+
+        "Gorduras Totais": 22.01
+    },
+
+    "Ovo, de codorna, inteiro, cru": {
+        "Calorias": 176.89,
+
+        "Proteinas": 13.69,
+
+        "Carboidratos": 0.77,
+
+        "Gorduras Totais": 12.68
+    },
+
+    "Ovo, de galinha, clara, cozida/10minutos": {
+        "Calorias": 59.44,
+
+        "Proteinas": 13.45,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "Ovo, de galinha, gema, cozida/10minutos": {
+        "Calorias": 352.67,
+
+        "Proteinas": 15.9,
+
+        "Carboidratos": 1.56,
+
+        "Gorduras Totais": 30.78
+    },
+
+    "Ovo, de galinha, inteiro, cozido/10minutos": {
+        "Calorias": 145.7,
+
+        "Proteinas": 13.29,
+
+        "Carboidratos": 0.61,
+
+        "Gorduras Totais": 9.48
+    },
+
+    "Ovo, de galinha, inteiro, cru": {
+        "Calorias": 143.11,
+
+        "Proteinas": 13.03,
+
+        "Carboidratos": 1.64,
+
+        "Gorduras Totais": 8.9
+    },
+
+    "Ovo, de galinha, inteiro, frito": {
+        "Calorias": 240.19,
+
+        "Proteinas": 15.62,
+
+        "Carboidratos": 1.19,
+
+        "Gorduras Totais": 18.59
+    },
+
+    "Achocolatado, p\u00f3": {
+        "Calorias": 401.02,
+
+        "Proteinas": 4.2,
+
+        "Carboidratos": 91.18,
+
+        "Gorduras Totais": 2.17
+    },
+
+    "A\u00e7\u00facar, cristal": {
+        "Calorias": 386.85,
+
+        "Proteinas": 0.32,
+
+        "Carboidratos": 99.61,
+
+        "Gorduras Totais": 0
+    },
+
+    "A\u00e7\u00facar, mascavo": {
+        "Calorias": 368.55,
+
+        "Proteinas": 0.76,
+
+        "Carboidratos": 94.45,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "A\u00e7\u00facar, refinado": {
+        "Calorias": 386.57,
+
+        "Proteinas": 0.32,
+
+        "Carboidratos": 99.54,
+
+        "Gorduras Totais": 0
+    },
+
+    "Chocolate, ao leite": {
+        "Calorias": 539.59,
+
+        "Proteinas": 7.22,
+
+        "Carboidratos": 59.58,
+
+        "Gorduras Totais": 30.27
+    },
+
+    "Chocolate, ao leite, com castanha do Par\u00e1": {
+        "Calorias": 558.88,
+
+        "Proteinas": 7.41,
+
+        "Carboidratos": 55.38,
+
+        "Gorduras Totais": 34.19
+    },
+
+    "Chocolate, ao leite, diet\u00e9tico": {
+        "Calorias": 556.82,
+
+        "Proteinas": 6.9,
+
+        "Carboidratos": 56.32,
+
+        "Gorduras Totais": 33.77
+    },
+
+    "Chocolate, meio amargo": {
+        "Calorias": 474.92,
+
+        "Proteinas": 4.86,
+
+        "Carboidratos": 62.42,
+
+        "Gorduras Totais": 29.86
+    },
+
+    "Cocada branca": {
+        "Calorias": 448.85,
+
+        "Proteinas": 1.12,
+
+        "Carboidratos": 81.38,
+
+        "Gorduras Totais": 13.59
+    },
+
+    "Doce, de ab\u00f3bora, cremoso": {
+        "Calorias": 198.94,
+
+        "Proteinas": 0.92,
+
+        "Carboidratos": 54.61,
+
+        "Gorduras Totais": 0.21
+    },
+
+    "Doce, de leite, cremoso": {
+        "Calorias": 306.31,
+
+        "Proteinas": 5.48,
+
+        "Carboidratos": 59.49,
+
+        "Gorduras Totais": 5.99
+    },
+
+    "Gel\u00e9ia, mocot\u00f3, natural": {
+        "Calorias": 106.09,
+
+        "Proteinas": 2.12,
+
+        "Carboidratos": 24.23,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Glicose de milho": {
+        "Calorias": 292.12,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 79.38,
+
+        "Gorduras Totais": 0
+    },
+
+    "Maria mole": {
+        "Calorias": 301.24,
+
+        "Proteinas": 3.81,
+
+        "Carboidratos": 73.55,
+
+        "Gorduras Totais": 0.19
+    },
+
+    "Maria mole, coco queimado": {
+        "Calorias": 306.63,
+
+        "Proteinas": 3.93,
+
+        "Carboidratos": 75.06,
+
+        "Gorduras Totais": 0.09
+    },
+
+    "Marmelada": {
+        "Calorias": 257.24,
+
+        "Proteinas": 0.4,
+
+        "Carboidratos": 70.76,
+
+        "Gorduras Totais": 0.14
+    },
+
+    "Mel, de abelha": {
+        "Calorias": 309.24,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 84.03,
+
+        "Gorduras Totais": 0
+    },
+
+    "Melado": {
+        "Calorias": 296.51,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 76.62,
+
+        "Gorduras Totais": 0
+    },
+
+    "Quindim": {
+        "Calorias": 411.35,
+
+        "Proteinas": 4.74,
+
+        "Carboidratos": 46.3,
+
+        "Gorduras Totais": 24.43
+    },
+
+    "Rapadura": {
+        "Calorias": 351.96,
+
+        "Proteinas": 0.99,
+
+        "Carboidratos": 90.79,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Caf\u00e9, p\u00f3, torrado": {
+        "Calorias": 418.62,
+
+        "Proteinas": 14.7,
+
+        "Carboidratos": 65.75,
+
+        "Gorduras Totais": 11.95
+    },
+
+    "Capuccino, p\u00f3": {
+        "Calorias": 417.41,
+
+        "Proteinas": 11.31,
+
+        "Carboidratos": 73.61,
+
+        "Gorduras Totais": 8.63
+    },
+
+    "Fermento em p\u00f3, qu\u00edmico": {
+        "Calorias": 89.72,
+
+        "Proteinas": 0.48,
+
+        "Carboidratos": 43.91,
+
+        "Gorduras Totais": 0.07
+    },
+
+    "Fermento, biol\u00f3gico, levedura, tablete": {
+        "Calorias": 89.79,
+
+        "Proteinas": 16.96,
+
+        "Carboidratos": 7.7,
+
+        "Gorduras Totais": 1.52
+    },
+
+    "Gelatina, sabores variados, p\u00f3": {
+        "Calorias": 380.22,
+
+        "Proteinas": 8.89,
+
+        "Carboidratos": 89.22,
+
+        "Gorduras Totais": 0
+    },
+
+    "Sal, diet\u00e9tico": {
+        "Calorias": 0,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0
+    },
+
+    "Sal, grosso": {
+        "Calorias": 0,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0
+    },
+
+    "Shoyu": {
+        "Calorias": 60.93,
+
+        "Proteinas": 3.31,
+
+        "Carboidratos": 11.65,
+
+        "Gorduras Totais": 0.33
+    },
+
+    "Tempero a base de sal": {
+        "Calorias": 21.33,
+
+        "Proteinas": 2.67,
+
+        "Carboidratos": 2.07,
+
+        "Gorduras Totais": 0.26
+    },
+
+    "Azeitona, preta, conserva": {
+        "Calorias": 194.15,
+
+        "Proteinas": 1.16,
+
+        "Carboidratos": 5.54,
+
+        "Gorduras Totais": 20.34
+    },
+
+    "Azeitona, verde, conserva": {
+        "Calorias": 136.94,
+
+        "Proteinas": 0.95,
+
+        "Carboidratos": 4.1,
+
+        "Gorduras Totais": 14.22
+    },
+
+    "Chantilly, spray, com gordura vegetal": {
+        "Calorias": 314.96,
+
+        "Proteinas": 0.53,
+
+        "Carboidratos": 16.86,
+
+        "Gorduras Totais": 27.27
+    },
+
+    "Leite, de coco": {
+        "Calorias": 166.16,
+
+        "Proteinas": 1.01,
+
+        "Carboidratos": 2.19,
+
+        "Gorduras Totais": 18.36
+    },
+
+    "Maionese, tradicional com ovos": {
+        "Calorias": 302.15,
+
+        "Proteinas": 0.58,
+
+        "Carboidratos": 7.9,
+
+        "Gorduras Totais": 30.5
+    },
+
+    "Acaraj\u00e9": {
+        "Calorias": 289.21,
+
+        "Proteinas": 8.35,
+
+        "Carboidratos": 19.11,
+
+        "Gorduras Totais": 19.93
+    },
+
+    "Arroz carreteiro": {
+        "Calorias": 153.77,
+
+        "Proteinas": 10.83,
+
+        "Carboidratos": 11.58,
+
+        "Gorduras Totais": 7.12
+    },
+
+    "Bai\u00e3o de dois, arroz e feij\u00e3o-de-corda": {
+        "Calorias": 135.68,
+
+        "Proteinas": 6.24,
+
+        "Carboidratos": 20.42,
+
+        "Gorduras Totais": 3.23
+    },
+
+    "Barreado": {
+        "Calorias": 164.98,
+
+        "Proteinas": 18.27,
+
+        "Carboidratos": 0.24,
+
+        "Gorduras Totais": 9.53
+    },
+
+    "Bife \u00e0 cavalo, com contra fil\u00e9": {
+        "Calorias": 291.23,
+
+        "Proteinas": 23.66,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 21.15
+    },
+
+    "Bolinho de arroz": {
+        "Calorias": 273.51,
+
+        "Proteinas": 8.04,
+
+        "Carboidratos": 41.68,
+
+        "Gorduras Totais": 8.29
+    },
+
+    "Camar\u00e3o \u00e0 baiana": {
+        "Calorias": 100.78,
+
+        "Proteinas": 7.94,
+
+        "Carboidratos": 3.17,
+
+        "Gorduras Totais": 5.97
+    },
+
+    "Charuto, de repolho": {
+        "Calorias": 78.23,
+
+        "Proteinas": 6.78,
+
+        "Carboidratos": 10.13,
+
+        "Gorduras Totais": 1.12
+    },
+
+    "Cuscuz, de milho, cozido com sal": {
+        "Calorias": 113.46,
+
+        "Proteinas": 2.16,
+
+        "Carboidratos": 25.28,
+
+        "Gorduras Totais": 0.68
+    },
+
+    "Cuscuz, paulista": {
+        "Calorias": 142.12,
+
+        "Proteinas": 2.56,
+
+        "Carboidratos": 22.51,
+
+        "Gorduras Totais": 4.65
+    },
+
+    "Cux\u00e1, molho": {
+        "Calorias": 80.09,
+
+        "Proteinas": 5.64,
+
+        "Carboidratos": 5.74,
+
+        "Gorduras Totais": 3.59
+    },
+
+    "Dobradinha": {
+        "Calorias": 124.5,
+
+        "Proteinas": 19.77,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 4.44
+    },
+
+    "Estrogonofe de carne": {
+        "Calorias": 173.14,
+
+        "Proteinas": 15.03,
+
+        "Carboidratos": 2.98,
+
+        "Gorduras Totais": 10.8
+    },
+
+    "Estrogonofe de frango": {
+        "Calorias": 156.81,
+
+        "Proteinas": 17.55,
+
+        "Carboidratos": 2.59,
+
+        "Gorduras Totais": 7.96
+    },
+
+    "Feij\u00e3o tropeiro mineiro": {
+        "Calorias": 151.56,
+
+        "Proteinas": 10.17,
+
+        "Carboidratos": 19.58,
+
+        "Gorduras Totais": 6.79
+    },
+
+    "Feijoada": {
+        "Calorias": 116.93,
+
+        "Proteinas": 8.67,
+
+        "Carboidratos": 11.64,
+
+        "Gorduras Totais": 6.48
+    },
+
+    "Frango, com a\u00e7afr\u00e3o": {
+        "Calorias": 112.78,
+
+        "Proteinas": 9.7,
+
+        "Carboidratos": 4.06,
+
+        "Gorduras Totais": 6.17
+    },
+
+    "Macarr\u00e3o, molho bolognesa": {
+        "Calorias": 119.53,
+
+        "Proteinas": 4.93,
+
+        "Carboidratos": 22.52,
+
+        "Gorduras Totais": 0.89
+    },
+
+    "Mani\u00e7oba": {
+        "Calorias": 134.22,
+
+        "Proteinas": 9.96,
+
+        "Carboidratos": 3.42,
+
+        "Gorduras Totais": 8.7
+    },
+
+    "Quibebe": {
+        "Calorias": 86.35,
+
+        "Proteinas": 8.56,
+
+        "Carboidratos": 6.64,
+
+        "Gorduras Totais": 2.67
+    },
+
+    "Salada, de legumes, com maionese": {
+        "Calorias": 96.1,
+
+        "Proteinas": 1.05,
+
+        "Carboidratos": 8.92,
+
+        "Gorduras Totais": 7.04
+    },
+
+    "Salada, de legumes, cozida no vapor": {
+        "Calorias": 35.41,
+
+        "Proteinas": 2.01,
+
+        "Carboidratos": 7.09,
+
+        "Gorduras Totais": 0.31
+    },
+
+    "Salpic\u00e3o, de frango": {
+        "Calorias": 147.86,
+
+        "Proteinas": 13.93,
+
+        "Carboidratos": 4.57,
+
+        "Gorduras Totais": 7.84
+    },
+
+    "Sarapatel": {
+        "Calorias": 122.98,
+
+        "Proteinas": 18.47,
+
+        "Carboidratos": 1.09,
+
+        "Gorduras Totais": 4.42
+    },
+
+    "Tabule": {
+        "Calorias": 57.45,
+
+        "Proteinas": 2.05,
+
+        "Carboidratos": 10.58,
+
+        "Gorduras Totais": 1.21
+    },
+
+    "Tacac\u00e1": {
+        "Calorias": 46.89,
+
+        "Proteinas": 6.96,
+
+        "Carboidratos": 3.39,
+
+        "Gorduras Totais": 0.36
+    },
+
+    "Tapioca, com manteiga": {
+        "Calorias": 347.83,
+
+        "Proteinas": 0.09,
+
+        "Carboidratos": 63.59,
+
+        "Gorduras Totais": 10.91
+    },
+
+    "Tucupi, com pimenta-de-cheiro": {
+        "Calorias": 27.18,
+
+        "Proteinas": 2.06,
+
+        "Carboidratos": 4.74,
+
+        "Gorduras Totais": 0.28
+    },
+
+    "Vaca atolada": {
+        "Calorias": 144.9,
+
+        "Proteinas": 5.12,
+
+        "Carboidratos": 10.06,
+
+        "Gorduras Totais": 9.32
+    },
+
+    "Vatap\u00e1": {
+        "Calorias": 254.89,
+
+        "Proteinas": 6.0,
+
+        "Carboidratos": 9.75,
+
+        "Gorduras Totais": 23.23
+    },
+
+    "Virado \u00e0 paulista": {
+        "Calorias": 306.95,
+
+        "Proteinas": 10.18,
+
+        "Carboidratos": 14.11,
+
+        "Gorduras Totais": 25.59
+    },
+
+    "Yakisoba": {
+        "Calorias": 112.8,
+
+        "Proteinas": 7.52,
+
+        "Carboidratos": 18.25,
+
+        "Gorduras Totais": 2.61
+    },
+
+    "Amendoim, gr\u00e3o, cru": {
+        "Calorias": 544.05,
+
+        "Proteinas": 27.19,
+
+        "Carboidratos": 20.31,
+
+        "Gorduras Totais": 43.85
+    },
+
+    "Amendoim, torrado, salgado": {
+        "Calorias": 605.78,
+
+        "Proteinas": 22.48,
+
+        "Carboidratos": 18.7,
+
+        "Gorduras Totais": 53.96
+    },
+
+    "Ervilha, em vagem": {
+        "Calorias": 88.09,
+
+        "Proteinas": 7.45,
+
+        "Carboidratos": 14.23,
+
+        "Gorduras Totais": 0.47
+    },
+
+    "Ervilha, enlatada, drenada": {
+        "Calorias": 73.84,
+
+        "Proteinas": 4.6,
+
+        "Carboidratos": 13.44,
+
+        "Gorduras Totais": 0.38
+    },
+
+    "Feij\u00e3o, carioca, cozido": {
+        "Calorias": 76.42,
+
+        "Proteinas": 4.78,
+
+        "Carboidratos": 13.59,
+
+        "Gorduras Totais": 0.54
+    },
+
+    "Feij\u00e3o, carioca, cru": {
+        "Calorias": 329.03,
+
+        "Proteinas": 19.98,
+
+        "Carboidratos": 61.22,
+
+        "Gorduras Totais": 1.26
+    },
+
+    "Feij\u00e3o, fradinho, cozido": {
+        "Calorias": 78.01,
+
+        "Proteinas": 5.09,
+
+        "Carboidratos": 13.5,
+
+        "Gorduras Totais": 0.64
+    },
+
+    "Feij\u00e3o, fradinho, cru": {
+        "Calorias": 339.16,
+
+        "Proteinas": 20.21,
+
+        "Carboidratos": 61.24,
+
+        "Gorduras Totais": 2.37
+    },
+
+    "Feij\u00e3o, jalo, cozido": {
+        "Calorias": 92.74,
+
+        "Proteinas": 6.14,
+
+        "Carboidratos": 16.5,
+
+        "Gorduras Totais": 0.51
+    },
+
+    "Feij\u00e3o, jalo, cru": {
+        "Calorias": 327.91,
+
+        "Proteinas": 20.1,
+
+        "Carboidratos": 61.48,
+
+        "Gorduras Totais": 0.95
+    },
+
+    "Feij\u00e3o, preto, cozido": {
+        "Calorias": 77.03,
+
+        "Proteinas": 4.48,
+
+        "Carboidratos": 14.01,
+
+        "Gorduras Totais": 0.54
+    },
+
+    "Feij\u00e3o, preto, cru": {
+        "Calorias": 323.57,
+
+        "Proteinas": 21.34,
+
+        "Carboidratos": 58.75,
+
+        "Gorduras Totais": 1.24
+    },
+
+    "Feij\u00e3o, rajado, cozido": {
+        "Calorias": 84.7,
+
+        "Proteinas": 5.54,
+
+        "Carboidratos": 15.27,
+
+        "Gorduras Totais": 0.4
+    },
+
+    "Feij\u00e3o, rajado, cru": {
+        "Calorias": 325.84,
+
+        "Proteinas": 17.27,
+
+        "Carboidratos": 62.93,
+
+        "Gorduras Totais": 1.17
+    },
+
+    "Feij\u00e3o, rosinha, cozido": {
+        "Calorias": 67.87,
+
+        "Proteinas": 4.54,
+
+        "Carboidratos": 11.82,
+
+        "Gorduras Totais": 0.48
+    },
+
+    "Feij\u00e3o, rosinha, cru": {
+        "Calorias": 336.96,
+
+        "Proteinas": 20.92,
+
+        "Carboidratos": 62.22,
+
+        "Gorduras Totais": 1.33
+    },
+
+    "Feij\u00e3o, roxo, cozido": {
+        "Calorias": 76.89,
+
+        "Proteinas": 5.72,
+
+        "Carboidratos": 12.91,
+
+        "Gorduras Totais": 0.54
+    },
+
+    "Feij\u00e3o, roxo, cru": {
+        "Calorias": 331.41,
+
+        "Proteinas": 22.17,
+
+        "Carboidratos": 59.99,
+
+        "Gorduras Totais": 1.24
+    },
+
+    "Gr\u00e3o-de-bico, cru": {
+        "Calorias": 354.7,
+
+        "Proteinas": 21.23,
+
+        "Carboidratos": 57.88,
+
+        "Gorduras Totais": 5.43
+    },
+
+    "Guandu, cru": {
+        "Calorias": 344.13,
+
+        "Proteinas": 18.96,
+
+        "Carboidratos": 64.0,
+
+        "Gorduras Totais": 2.13
+    },
+
+    "Lentilha, cozida": {
+        "Calorias": 92.64,
+
+        "Proteinas": 6.31,
+
+        "Carboidratos": 16.3,
+
+        "Gorduras Totais": 0.52
+    },
+
+    "Lentilha, crua": {
+        "Calorias": 339.14,
+
+        "Proteinas": 23.15,
+
+        "Carboidratos": 62.0,
+
+        "Gorduras Totais": 0.77
+    },
+
+    "Pa\u00e7oca, amendoim": {
+        "Calorias": 486.93,
+
+        "Proteinas": 16.0,
+
+        "Carboidratos": 52.38,
+
+        "Gorduras Totais": 26.08
+    },
+
+    "P\u00e9-de-moleque, amendoim": {
+        "Calorias": 503.19,
+
+        "Proteinas": 13.16,
+
+        "Carboidratos": 54.73,
+
+        "Gorduras Totais": 28.05
+    },
+
+    "Soja, farinha": {
+        "Calorias": 403.96,
+
+        "Proteinas": 36.03,
+
+        "Carboidratos": 38.44,
+
+        "Gorduras Totais": 14.63
+    },
+
+    "Soja, extrato sol\u00favel, natural, fluido": {
+        "Calorias": 39.1,
+
+        "Proteinas": 2.38,
+
+        "Carboidratos": 4.28,
+
+        "Gorduras Totais": 1.61
+    },
+
+    "Soja, extrato sol\u00favel, p\u00f3": {
+        "Calorias": 458.9,
+
+        "Proteinas": 35.69,
+
+        "Carboidratos": 28.48,
+
+        "Gorduras Totais": 26.18
+    },
+
+    "Soja, queijo (tofu)": {
+        "Calorias": 64.49,
+
+        "Proteinas": 6.55,
+
+        "Carboidratos": 2.13,
+
+        "Gorduras Totais": 3.95
+    },
+
+    "Tremo\u00e7o, cru": {
+        "Calorias": 381.28,
+
+        "Proteinas": 33.58,
+
+        "Carboidratos": 43.79,
+
+        "Gorduras Totais": 10.34
+    },
+
+    "Tremo\u00e7o, em conserva": {
+        "Calorias": 120.64,
+
+        "Proteinas": 11.11,
+
+        "Carboidratos": 12.39,
+
+        "Gorduras Totais": 3.78
+    },
+
+    "Am\u00eandoa, torrada, salgada": {
+        "Calorias": 580.75,
+
+        "Proteinas": 18.55,
+
+        "Carboidratos": 29.55,
+
+        "Gorduras Totais": 47.32
+    },
+
+    "Castanha-de-caju, torrada, salgada": {
+        "Calorias": 570.17,
+
+        "Proteinas": 18.51,
+
+        "Carboidratos": 29.13,
+
+        "Gorduras Totais": 46.28
+    },
+
+    "Castanha-do-Brasil, crua": {
+        "Calorias": 642.96,
+
+        "Proteinas": 14.54,
+
+        "Carboidratos": 15.08,
+
+        "Gorduras Totais": 63.46
+    },
+
+    "Coco, cru": {
+        "Calorias": 406.49,
+
+        "Proteinas": 3.69,
+
+        "Carboidratos": 10.4,
+
+        "Gorduras Totais": 41.98
+    },
+
+    "Coco,  verde, cru": {
+        "Calorias": 0,
+
+        "Proteinas": 0,
+
+        "Carboidratos": 0,
+
+        "Gorduras Totais": 0
+    },
+
+    "Farinha, de mesocarpo de baba\u00e7u, crua": {
+        "Calorias": 328.77,
+
+        "Proteinas": 1.41,
+
+        "Carboidratos": 79.17,
+
+        "Gorduras Totais": 0.2
+    },
+
+    "Gergelim, semente": {
+        "Calorias": 583.55,
+
+        "Proteinas": 21.16,
+
+        "Carboidratos": 21.62,
+
+        "Gorduras Totais": 50.43
+    },
+
+    "Linha\u00e7a, semente": {
+        "Calorias": 495.1,
+
+        "Proteinas": 14.08,
+
+        "Carboidratos": 43.31,
+
+        "Gorduras Totais": 32.25
+    },
+
+    "Pinh\u00e3o, cozido": {
+        "Calorias": 174.37,
+
+        "Proteinas": 2.98,
+
+        "Carboidratos": 43.92,
+
+        "Gorduras Totais": 0.75
+    },
+
+    "Pupunha, cozida": {
+        "Calorias": 218.53,
+
+        "Proteinas": 2.52,
+
+        "Carboidratos": 29.57,
+
+        "Gorduras Totais": 12.76
+    },
+
+    "Noz, crua": {
+        "Calorias": 620.06,
+
+        "Proteinas": 13.97,
+
+        "Carboidratos": 18.36,
+
+        "Gorduras Totais": 59.36
+    }
+}

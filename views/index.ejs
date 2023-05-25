@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabela nutricional</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="icon" href="/assets/alimentos.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="/static/js/script.js"></script>
+    <link href="/static/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+ 
+  <body> 
+    <header>
+      <h2 class="text-center" style="color: white">
+        <img src="/assets/alimentos.png" alt="Logo">
+        <strong>Nutri - Info</strong>
+        <div class="d-flex justify-content-end">
+          <i id="icone_tema" onclick="atualizaTema()" class="bi bi-sun-fill fs-3" title="Clique para altera o tema"></i>
+        </div>
+      </h2>
+    </header>
+    
+    <div style="margin-left: 5%; margin-right: 5%">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10" style="margin-top: 1%">
+          <p >
+            Encontre a tabela nutricional de macros nutrientes de um determinado alimento
+            <i class="bi bi-info-circle-fill text-success" title="
+Liste as informações de alimentos Buscando por range de calorias, menor que X e maior que Y;
+Liste as informações de alimentos que tem proteína maior ou menor que um valor X;
+Liste as informações de alimentos que tem carboidratos maior ou menor que um valor X;
+Liste as informações de alimentos que tem gordura maior ou menor que um valor X;
+Liste as informações de alimentos Buscando por nome." onclick="infoPesquisa()"></i>
+          </p>
+          <select class="form-select" id="option_select" onchange="atualizaOption()">
+            <option value="carbo">Carboidratos</option>
+            <option value="prot">Proteínas</option>
+            <option value="gord">Gorduras</option>
+            <option value="calorias" selected>Calorias</option>
+            <option value="nome">Nome</option>
+          </select>
+        </div>
+      </div>
+  
+      <div id="div-calorias">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <label for="valor-mais">Menor caloria:</label>
+            <input class="form-control" type="number" id="valor-mais" min="0" value="0">
+          </div>
+          
+          <div class="col-md-5">
+            <label for="valor-menos">Maior caloria:</label>
+            <input class="form-control" type="number" id="valor-menos" min="0" max="900" value="0">
+          </div>
+        </div>
+      </div>
+    
+      <div id="div-outros" style="display: none">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <label for="menos-mais">Pesquisar por:</label>
+            <select class="form-select" id="menos-mais">
+              <option value="mais">Maior</option>
+              <option value="menos">Menor</option>
+            </select>
+          </div>
+          <div class="col-md-5">
+            <label for="valor">Valor:</label>
+            <input class="form-control" type="number" id="valor" min="0" max="100" value="0">
+          </div>
+        </div>
+      </div>
+  
+      <div id="div-nome" style="display: none">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10">
+            <label for="nome">Nome do alimento:</label>
+            <input class="form-control" type="text" id="nome" value="">
+          </div>
+        </div>
+      </div>
+        
+      <br>
+      <div class="text-center">
+        <button type="submit" id="button-click" onclick="atualizaTabela()" class="btn btn-outline-success">Pesquisar</button>
+      </div>
+  
+      <div class="row d-flex justify-content-center text-center">
+        <div class="col-10" style="margin-top: 4%">
+          <hr/>
+          <h4> 
+            <strong>Alimentos (100g)</strong>
+            <i class="bi bi-info-circle-fill text-success fs-3" onclick="infoAlimentos()"
+            title="As informações são relativas a 100 gramas de qualquer alimento"></i>
+          </h4>
+          <hr/>
+          <div id="minha-tabela"></div>
+        </div>
+      </div> 
+       
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 infos" style="margin-top: 4%">
+          
+        </div>
+      </div>
+    </div >
+  </body>
+</html>
