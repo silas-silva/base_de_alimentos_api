@@ -115,15 +115,22 @@
       <h2 class="text-center" style="color: white">
         <strong>Info - Nutri</strong>
       </h2>
-      <p>
+      <p style="color: white">
         Encontre a tabela nutricional de macros nutrientes de um determinado alimento
       </p>
-      <p>
+      <p style="color: white">
          OBS: As informações são relativas a 100 gramas de qualquer alimento.
       </p>
       <!--img src="./alimentos.png" alt="Logo"-->
     </header>
-    <ul>
+    
+    <div style="margin-left: 5%; margin-right: 5%">
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" onchange="atualizaTema()" id="tema">
+        <label class="form-check-label" for="themeSwitch">Alternar Tema</label>
+      </div>
+    
+    <ul class="text-center">
       <li>
         Liste as informações de alimentos Buscando por range de calorias, menor que X e maior que Y.
       </li>
@@ -150,12 +157,6 @@
         Liste as informações de alimentos Buscando por nome
       </li>
     </ul>
-
-    <div style="margin-left: 5%; margin-right: 5%">
-      <div class="form-check form-switch">
-        <input type="checkbox" class="form-check-input" onchange="atualizaTema()" id="tema">
-        <label class="form-check-label" for="themeSwitch">Alternar Tema</label>
-      </div>
   
       <div class="row d-flex justify-content-center">
         <div class="col-md-10" style="margin-top: 1%">
