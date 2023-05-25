@@ -84,3 +84,31 @@ function atualizaTema() {
     $('#tabela').toggleClass('dark-mode');
     $('#icone_tema').toggleClass("bi-sun-fill bi-moon-fill");
 }
+
+function infoPesquisa() {
+    Swal.fire({
+        title: 'Informações Importantes',
+        html:`<ul>
+                    <li><strong>(Calorias)</strong> lista as informações de alimentos Buscando por range de calorias, menor que X e maior que Y;</li>
+                    <li><strong>(Carboidratos)</strong> lista as informações de alimentos que tem carboidratos maior ou menor que um valor X;</li>
+                    <li><strong>(Proteína)</strong> lista as informações de alimentos que tem proteína maior ou menor que um valor X;</li>
+                    <li><strong>(Gordura)</strong> lista as informações de alimentos que tem nome maior ou menor que um valor X;</li>
+                    <li><strong>(Nome)</strong> lista as informações de alimentos Buscando por nome.</li>
+                </ul>`,
+        icon: 'info',
+        confirmButtonColor: 'green',
+        confirmButtonText: 'Entendi'
+    });
+}
+
+function infoAlimentos(){
+    Swal.fire({
+        title: 'Informações Importantes',
+        html:`As informações são relativas a 100 gramas de qualquer alimento`,
+        icon: 'info',
+        confirmButtonColor: 'green',
+        confirmButtonText: 'Entendi'
+    });
+}
+
+  

@@ -10,7 +10,7 @@
     <link rel="icon" href="/assets/alimentos.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
     <script type="text/javascript" src="/static/js/script.js"></script>
     <link href="/static/css/style.css" rel="stylesheet" type="text/css">
   </head>
@@ -36,7 +36,7 @@ Liste as informações de alimentos Buscando por range de calorias, menor que X 
 Liste as informações de alimentos que tem proteína maior ou menor que um valor X;
 Liste as informações de alimentos que tem carboidratos maior ou menor que um valor X;
 Liste as informações de alimentos que tem gordura maior ou menor que um valor X;
-Liste as informações de alimentos Buscando por nome."></i>
+Liste as informações de alimentos Buscando por nome." onclick="infoPesquisa()"></i>
           </p>
           <select class="form-select" id="option_select" onchange="atualizaOption()">
             <option value="carbo">Carboidratos</option>
@@ -97,7 +97,7 @@ Liste as informações de alimentos Buscando por nome."></i>
           <hr/>
           <h4> 
             <strong>Alimentos (100g)</strong>
-            <i class="bi bi-info-circle-fill text-success fs-3"
+            <i class="bi bi-info-circle-fill text-success fs-3" onclick="infoAlimentos()"
             title="As informações são relativas a 100 gramas de qualquer alimento"></i>
           </h4>
           <hr/>
