@@ -62,7 +62,8 @@ function atualizaTabela(){
         dados[tipo_busca] = valor
     }
 
-    var rota_completa = `https://basedealimentosapi-production-12a4.up.railway.app/${rota}`
+    //var rota_completa = `https://basedealimentosapi-production-12a4.up.railway.app/${rota}`
+    var rota_completa = ` http://localhost:3000/${rota}`
 
     $.ajax({
         url: rota_completa,
